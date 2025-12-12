@@ -1,0 +1,121 @@
+{
+  "1": {
+    "character": {
+      "name": "SAAL D'ASTORA",
+      "level": 0,
+      "hollowing": 0,
+      "souls": 15000,
+      "stats": {
+        "memory": {
+          "value": 20,
+          "modifier": 3
+        },
+        "endurance": {
+          "value": 5,
+          "modifier": -3
+        },
+        "vitality": {
+          "value": 7,
+          "modifier": -2
+        },
+        "strength": {
+          "value": 5,
+          "modifier": -3
+        },
+        "dexterity": {
+          "value": 10,
+          "modifier": 0
+        },
+        "intelligence": {
+          "value": 18,
+          "modifier": 4
+        },
+        "faith": {
+          "value": 15,
+          "modifier": 2
+        },
+        "luck": {
+          "value": 15,
+          "modifier": 2
+        }
+      },
+      "resources": [
+        {
+          "name": "HP",
+          "current": 30,
+          "max": 30
+        },
+        {
+          "name": "AP",
+          "current": 4,
+          "max": 4
+        },
+        {
+          "name": "Attunement",
+          "current": 4,
+          "max": 4
+        }
+      ]
+    },
+    "equipment": {
+      "main_hand": {
+        "type": "weapon",
+        "name": "Épée longue +5",
+        "damage_types": [
+          {
+            "type": "slashing",
+            "value": "1d12"
+          }
+        ],
+        "status_effects": []
+      },
+      "off_hand": {
+        "type": "shield",
+        "name": "Grand Bouclier de Havel",
+        "shield_type": "heavy"
+      },
+      "armor": {
+        "name": "Armure de Havel",
+        "types": [
+          "heavy",
+          "fire"
+        ]
+      }
+    },
+    "inventory": [
+      {
+        "type": "weapon",
+        "name": "Épée longue",
+        "damage_types": [
+          {
+            "type": "slashing",
+            "value": "1d8"
+          }
+        ],
+        "status_effects": []
+      }
+    ],
+    "spells": [
+      {
+        "name": "Promesse de Paix",
+        "spell_type": "miracle",
+        "effects": [
+          {
+            "effect_type": "healing",
+            "value": "1d6"
+          }
+        ]
+      },
+      {
+        "name": "Lance de Givre",
+        "spell_type": "cryomancy",
+        "effects": [
+          {
+            "effect_type": "damage",
+            "value": "1d8"
+          }
+        ]
+      }
+    ]
+  }
+}
