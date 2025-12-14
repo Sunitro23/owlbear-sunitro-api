@@ -59,9 +59,7 @@ def get_character(character_id: int):
     return CharacterResponse(
         id=character_id,
         character=character_data.character,
-        equipment=character_data.equipment,
-        inventory=character_data.inventory,
-        spells=character_data.spells
+        inventory=character_data.inventory
     )
 
 
@@ -80,9 +78,7 @@ def create_character(character: CharacterCreate):
     return CharacterResponse(
         id=character_id,
         character=created_character.character,
-        equipment=created_character.equipment,
-        inventory=created_character.inventory,
-        spells=created_character.spells
+        inventory=created_character.inventory
     )
 
 
@@ -108,9 +104,7 @@ def update_character(character_id: int, character_update: CharacterUpdate):
     return CharacterResponse(
         id=character_id,
         character=updated_character.character,
-        equipment=updated_character.equipment,
-        inventory=updated_character.inventory,
-        spells=updated_character.spells
+        inventory=updated_character.inventory
     )
 
 

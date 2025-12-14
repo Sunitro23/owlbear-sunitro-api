@@ -1,0 +1,2080 @@
+{
+    "1": {
+        "character": {
+            "main": {
+                "name": "Jacqueline Smith",
+                "level": {
+                    "current": 34,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 3,
+                    "description": [
+                        "say",
+                        "pick",
+                        "trouble"
+                    ]
+                },
+                "souls": {
+                    "total": 6630,
+                    "lost": 4414
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 56,
+                    "modifier": -3,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 60,
+                    "modifier": 7,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 71,
+                    "modifier": -3,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 93,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 17,
+                    "modifier": 5,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 12,
+                    "modifier": 4,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 642,
+                    "max": 8336,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 451,
+                    "max": 2349,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [],
+            "armors": [],
+            "catalysts": [
+                {
+                    "id": "fda23232-245c-4e30-965f-8d3623267792",
+                    "name": "Serve Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "pyromancy flame",
+                    "flatBonus": 7
+                },
+                {
+                    "id": "30b1eb86-3ab6-4dc6-9929-8ef179c248f5",
+                    "name": "Discussion Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "pyromancy flame",
+                    "flatBonus": 15
+                }
+            ],
+            "items": [
+                {
+                    "id": "bf533a44-a88f-4fe9-a1b2-ac95c4218502",
+                    "name": "Foreign Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Relate apply debate itself add.",
+                    "uses": 3,
+                    "max_uses": 25
+                },
+                {
+                    "id": "a4f3b93b-f273-47b7-b66f-ca9de010d03c",
+                    "name": "Condition Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Matter available find three movement somebody need their.",
+                    "uses": 3,
+                    "max_uses": 35
+                },
+                {
+                    "id": "ca823a5d-cf8b-4778-a467-9f1f8e55d4a9",
+                    "name": "Begin Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Mother officer argue real poor television.",
+                    "uses": 5,
+                    "max_uses": 12
+                },
+                {
+                    "id": "3bcb2093-69c4-4cab-844d-3c0863ea3044",
+                    "name": "Growth Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "material",
+                    "effect": "Physical property talk drop.",
+                    "uses": 7,
+                    "max_uses": 30
+                },
+                {
+                    "id": "d79b7e0d-5f26-4d3e-8b46-65f4a88f2697",
+                    "name": "Music Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Democratic control simple recognize.",
+                    "uses": 9,
+                    "max_uses": 46
+                },
+                {
+                    "id": "d218e956-1afb-47bf-a51c-eae21df2f49e",
+                    "name": "Audience Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "material",
+                    "effect": "At happen once who.",
+                    "uses": 3,
+                    "max_uses": 42
+                },
+                {
+                    "id": "0637a63a-ed7f-44eb-a461-f471e40c100c",
+                    "name": "Despite Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Plan new seven.",
+                    "uses": 4,
+                    "max_uses": 11
+                },
+                {
+                    "id": "22b203c2-c519-41eb-a36b-26dfcb97bc50",
+                    "name": "Hold Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Season color set fund positive.",
+                    "uses": 2,
+                    "max_uses": 23
+                },
+                {
+                    "id": "d6947c17-7dc4-45e4-88ad-166f71b172be",
+                    "name": "They Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Shake green which statement.",
+                    "uses": 9,
+                    "max_uses": 18
+                },
+                {
+                    "id": "a0ae792a-8867-4db7-b24d-0fc3eff79c10",
+                    "name": "Itself Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "material",
+                    "effect": "Place third hot.",
+                    "uses": 1,
+                    "max_uses": 38
+                }
+            ],
+            "spells": []
+        }
+    },
+    "2": {
+        "character": {
+            "main": {
+                "name": "Michelle Hoffman",
+                "level": {
+                    "current": 73,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 4,
+                    "description": [
+                        "perhaps",
+                        "huge",
+                        "raise"
+                    ]
+                },
+                "souls": {
+                    "total": 5165,
+                    "lost": 1352
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 30,
+                    "modifier": 10,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 56,
+                    "modifier": -2,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 35,
+                    "modifier": -3,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 87,
+                    "modifier": -4,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 79,
+                    "modifier": -1,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 82,
+                    "modifier": 0,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 878,
+                    "max": 7290,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 300,
+                    "max": 3718,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "86e9acbb-aad3-4a9a-bb8a-63f38503cd57",
+                    "name": "Factor Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "fire",
+                    "dice": "d100",
+                    "scalingStat": "FTH",
+                    "twoHanded": false,
+                    "flatBonus": 16
+                },
+                {
+                    "id": "f4626d3d-56d0-42ff-83de-f601185dc065",
+                    "name": "By Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "lightning",
+                    "dice": "d12",
+                    "scalingStat": "DEX",
+                    "twoHanded": true,
+                    "flatBonus": 16
+                },
+                {
+                    "id": "ffe6e234-4c60-465c-90de-8449b795365b",
+                    "name": "All Sword",
+                    "slot": "bag",
+                    "type": "weapon",
+                    "damageType": "frost",
+                    "dice": "d100",
+                    "scalingStat": "DEX",
+                    "twoHanded": true,
+                    "flatBonus": 22
+                },
+                {
+                    "id": "8af43507-21bc-4346-b5f4-3ea01d5b395b",
+                    "name": "Institution Sword",
+                    "slot": "consumable",
+                    "type": "weapon",
+                    "damageType": "fire",
+                    "dice": "d100",
+                    "scalingStat": "STR",
+                    "twoHanded": false,
+                    "flatBonus": 23
+                }
+            ],
+            "armors": [
+                {
+                    "id": "d5e84a5f-b183-428d-b228-3ab3a152aa86",
+                    "name": "Air Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "lightning",
+                    "flatBonus": 4
+                }
+            ],
+            "catalysts": [
+                {
+                    "id": "f26652c7-35c4-41d4-9262-54ac95a5a875",
+                    "name": "Would Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "talisman",
+                    "flatBonus": 7
+                },
+                {
+                    "id": "e7e836ab-c360-44ee-af6c-d1913af2b066",
+                    "name": "Industry Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "talisman",
+                    "flatBonus": 5
+                },
+                {
+                    "id": "ce12b863-bf68-4573-b2ff-259ed7af81a9",
+                    "name": "Half Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "staff",
+                    "flatBonus": 18
+                }
+            ],
+            "items": [
+                {
+                    "id": "bcddfa5b-1d0e-4edf-b1cd-84de8338385c",
+                    "name": "Through Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Claim coach sport study conference must something.",
+                    "uses": 4,
+                    "max_uses": 33
+                },
+                {
+                    "id": "b4324a7e-8596-4715-8210-d24c76aa80b6",
+                    "name": "Style Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Gun fish region card.",
+                    "uses": 6,
+                    "max_uses": 10
+                },
+                {
+                    "id": "9f51d3c6-ad3a-49b0-aa7f-bea7b11ed13a",
+                    "name": "Affect Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Camera main billion reality response indicate character.",
+                    "uses": 5,
+                    "max_uses": 24
+                },
+                {
+                    "id": "34f14859-f39a-4df4-ba0f-c240f474121c",
+                    "name": "Grow Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "material",
+                    "effect": "Ability sure mouth action late exist mission between.",
+                    "uses": 9,
+                    "max_uses": 36
+                },
+                {
+                    "id": "f388581c-3c0e-409a-99a5-90049d171041",
+                    "name": "Play Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Contain social score shake recognize such although.",
+                    "uses": 8,
+                    "max_uses": 12
+                },
+                {
+                    "id": "7d5158e6-8527-4e32-855f-a8bcbd8a8318",
+                    "name": "Major Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Impact they move military through thought.",
+                    "uses": 1,
+                    "max_uses": 44
+                }
+            ],
+            "spells": [
+                {
+                    "id": "1a1ee470-1ee2-4918-8cb2-1d985279b784",
+                    "name": "Trip Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "cryomancy",
+                    "effectType": "damage",
+                    "dice": "d4",
+                    "scalingStat": "STR",
+                    "duration": 7,
+                    "requiresCatalyst": "staff",
+                    "uses": 3,
+                    "max_uses": 6
+                }
+            ]
+        }
+    },
+    "3": {
+        "character": {
+            "main": {
+                "name": "Miranda Arnold DVM",
+                "level": {
+                    "current": 63,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 5,
+                    "description": [
+                        "strong",
+                        "later",
+                        "computer"
+                    ]
+                },
+                "souls": {
+                    "total": 6356,
+                    "lost": 2759
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 92,
+                    "modifier": 9,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 38,
+                    "modifier": 4,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 44,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 39,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 77,
+                    "modifier": 2,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 77,
+                    "modifier": -5,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 701,
+                    "max": 4671,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 224,
+                    "max": 2892,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "d362b8d5-9597-4d0f-a03c-23603c07a285",
+                    "name": "Board Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "bludgeoning",
+                    "dice": "d8",
+                    "scalingStat": "INT",
+                    "twoHanded": false,
+                    "flatBonus": 17
+                }
+            ],
+            "armors": [],
+            "catalysts": [
+                {
+                    "id": "ff831bbf-4d0a-486e-88c3-5f9fc8b577ab",
+                    "name": "Choice Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "chime",
+                    "flatBonus": 10
+                },
+                {
+                    "id": "965f4fc0-7b98-41b3-86a9-38ea5f2a5496",
+                    "name": "Could Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "talisman",
+                    "flatBonus": 16
+                },
+                {
+                    "id": "281d2098-ea52-4050-8080-fb7bb0851657",
+                    "name": "Find Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "pyromancy flame",
+                    "flatBonus": 18
+                }
+            ],
+            "items": [
+                {
+                    "id": "29422b3f-6d0a-460d-98da-c44c7eef0cc7",
+                    "name": "Design Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "During read half test end TV reveal.",
+                    "uses": 7,
+                    "max_uses": 17
+                },
+                {
+                    "id": "39384c28-73a3-42aa-bfeb-785e4c73a1d0",
+                    "name": "Peace Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Truth push weight network.",
+                    "uses": 8,
+                    "max_uses": 15
+                }
+            ],
+            "spells": [
+                {
+                    "id": "7d20feab-600a-43da-8fc4-fa2e6181c077",
+                    "name": "Strong Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "healing",
+                    "dice": "d12",
+                    "scalingStat": "FTH",
+                    "duration": 1,
+                    "requiresCatalyst": "talisman",
+                    "uses": 4,
+                    "max_uses": 16
+                },
+                {
+                    "id": "0d13c12a-b20c-44fe-92c3-e06477496498",
+                    "name": "Beat Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "magic",
+                    "effectType": "debuff",
+                    "dice": "d6",
+                    "scalingStat": null,
+                    "duration": 2,
+                    "requiresCatalyst": "talisman",
+                    "uses": 1,
+                    "max_uses": 18
+                },
+                {
+                    "id": "06c85e88-443b-4a4c-9da2-b353598239a0",
+                    "name": "Challenge Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "damage",
+                    "dice": "d100",
+                    "scalingStat": null,
+                    "duration": 10,
+                    "requiresCatalyst": "staff",
+                    "uses": 2,
+                    "max_uses": 12
+                },
+                {
+                    "id": "2ef4b38a-57ad-4949-804c-03edf569d66d",
+                    "name": "Decision Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "magic",
+                    "effectType": "buff",
+                    "dice": "d100",
+                    "scalingStat": "STR",
+                    "duration": 3,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 4,
+                    "max_uses": 12
+                }
+            ]
+        }
+    },
+    "4": {
+        "character": {
+            "main": {
+                "name": "Jeffrey Mendez",
+                "level": {
+                    "current": 3,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 1,
+                    "description": [
+                        "service",
+                        "hotel",
+                        "ever"
+                    ]
+                },
+                "souls": {
+                    "total": 8595,
+                    "lost": 4017
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 78,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 28,
+                    "modifier": -2,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 15,
+                    "modifier": 9,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 93,
+                    "modifier": 9,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 66,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 75,
+                    "modifier": 10,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 509,
+                    "max": 5279,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 441,
+                    "max": 2996,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "61095df3-37d6-4384-9c4b-afd26d3510d3",
+                    "name": "Put Sword",
+                    "slot": "consumable",
+                    "type": "weapon",
+                    "damageType": "frost",
+                    "dice": "d6",
+                    "scalingStat": "INT",
+                    "twoHanded": false,
+                    "flatBonus": 31
+                }
+            ],
+            "armors": [
+                {
+                    "id": "187fe96f-cd35-4e46-8f43-e49db6d746da",
+                    "name": "Five Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "light",
+                    "flatBonus": 19
+                },
+                {
+                    "id": "9006e235-0b73-4efd-b998-501d9f44c4bf",
+                    "name": "Stay Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "dark",
+                    "flatBonus": 30
+                }
+            ],
+            "catalysts": [
+                {
+                    "id": "502a401b-303c-4ef9-ba28-31f3a1f4d090",
+                    "name": "Authority Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "staff",
+                    "flatBonus": 9
+                },
+                {
+                    "id": "86578d89-5087-4a20-863f-c49bb4e2509b",
+                    "name": "Picture Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "chime",
+                    "flatBonus": 1
+                },
+                {
+                    "id": "f6f1605a-26e8-4f8c-a927-f21e451b9d9a",
+                    "name": "What Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "chime",
+                    "flatBonus": 4
+                }
+            ],
+            "items": [],
+            "spells": [
+                {
+                    "id": "aa4f87de-f74d-467a-898a-9171d87ed00f",
+                    "name": "Word Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "utility",
+                    "dice": "d10",
+                    "scalingStat": "STR",
+                    "duration": 10,
+                    "requiresCatalyst": "staff",
+                    "uses": 5,
+                    "max_uses": 7
+                },
+                {
+                    "id": "2b35d40b-23a0-4f5d-bda5-833f5db5d12a",
+                    "name": "Total Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "miracle",
+                    "effectType": "utility",
+                    "dice": "d100",
+                    "scalingStat": null,
+                    "duration": 1,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 4,
+                    "max_uses": 15
+                },
+                {
+                    "id": "2685e041-5028-44b0-89d5-2ffbf56e3c09",
+                    "name": "Still Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "magic",
+                    "effectType": "healing",
+                    "dice": "d4",
+                    "scalingStat": "DEX",
+                    "duration": 3,
+                    "requiresCatalyst": "staff",
+                    "uses": 3,
+                    "max_uses": 10
+                },
+                {
+                    "id": "32767894-a261-48ef-9b16-610162058fa6",
+                    "name": "Their Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "magic",
+                    "effectType": "utility",
+                    "dice": "d8",
+                    "scalingStat": null,
+                    "duration": 4,
+                    "requiresCatalyst": "chime",
+                    "uses": 5,
+                    "max_uses": 10
+                }
+            ]
+        }
+    },
+    "5": {
+        "character": {
+            "main": {
+                "name": "Adrienne Blackwell",
+                "level": {
+                    "current": 67,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 3,
+                    "description": [
+                        "ok",
+                        "begin",
+                        "no"
+                    ]
+                },
+                "souls": {
+                    "total": 2229,
+                    "lost": 1436
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 31,
+                    "modifier": 5,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 64,
+                    "modifier": 7,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 2,
+                    "modifier": 1,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 20,
+                    "modifier": 7,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 86,
+                    "modifier": 9,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 55,
+                    "modifier": -2,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 715,
+                    "max": 9891,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 171,
+                    "max": 3722,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "0569a1c0-364c-40fb-a7e0-d54f3f718d36",
+                    "name": "Between Sword",
+                    "slot": "armor",
+                    "type": "weapon",
+                    "damageType": "bludgeoning",
+                    "dice": "d20",
+                    "scalingStat": "FTH",
+                    "twoHanded": true,
+                    "flatBonus": 22
+                },
+                {
+                    "id": "24ad7b16-9a83-407b-8211-bea91259fd01",
+                    "name": "Success Sword",
+                    "slot": "bag",
+                    "type": "weapon",
+                    "damageType": "fire",
+                    "dice": "d8",
+                    "scalingStat": null,
+                    "twoHanded": false,
+                    "flatBonus": 17
+                },
+                {
+                    "id": "eb593d75-1e5e-49b2-bfb1-d6bd509030b3",
+                    "name": "Book Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "slashing",
+                    "dice": "d4",
+                    "scalingStat": "INT",
+                    "twoHanded": false,
+                    "flatBonus": 20
+                },
+                {
+                    "id": "2bcc90ce-a5f5-4a68-aace-e46ba14e5ef9",
+                    "name": "Theory Sword",
+                    "slot": "consumable",
+                    "type": "weapon",
+                    "damageType": "piercing",
+                    "dice": "d6",
+                    "scalingStat": null,
+                    "twoHanded": true,
+                    "flatBonus": 40
+                },
+                {
+                    "id": "7e253580-b156-4f03-8095-9deb26683b9d",
+                    "name": "Value Sword",
+                    "slot": "left_hand",
+                    "type": "weapon",
+                    "damageType": "piercing",
+                    "dice": "d6",
+                    "scalingStat": "INT",
+                    "twoHanded": false,
+                    "flatBonus": 22
+                }
+            ],
+            "armors": [
+                {
+                    "id": "f3729eb1-f8f0-433e-a0f1-5b987c12dba6",
+                    "name": "Sure Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "light",
+                    "flatBonus": 19
+                }
+            ],
+            "catalysts": [
+                {
+                    "id": "0f57583e-0968-42c8-99d7-5e8dd4de8cf0",
+                    "name": "Media Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "staff",
+                    "flatBonus": 5
+                },
+                {
+                    "id": "88305b62-7569-408f-a7e4-d4d7b4fd7c84",
+                    "name": "Attorney Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "chime",
+                    "flatBonus": 14
+                }
+            ],
+            "items": [
+                {
+                    "id": "b4941d70-360c-46f0-9e53-995e146854f0",
+                    "name": "Shake Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Standard form reason soon against.",
+                    "uses": 3,
+                    "max_uses": 10
+                },
+                {
+                    "id": "22fe3596-c674-4c94-bb5b-e44cc69a9e76",
+                    "name": "Notice Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Until course executive drop politics.",
+                    "uses": 5,
+                    "max_uses": 41
+                }
+            ],
+            "spells": [
+                {
+                    "id": "1ac4655e-3250-4b01-b879-1d639c26df6b",
+                    "name": "Event Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "cryomancy",
+                    "effectType": "damage",
+                    "dice": "d20",
+                    "scalingStat": null,
+                    "duration": 7,
+                    "requiresCatalyst": "staff",
+                    "uses": 4,
+                    "max_uses": 9
+                },
+                {
+                    "id": "134cbcf2-383b-4768-b114-729cc85fd904",
+                    "name": "Identify Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "magic",
+                    "effectType": "buff",
+                    "dice": "d10",
+                    "scalingStat": "FTH",
+                    "duration": 9,
+                    "requiresCatalyst": "staff",
+                    "uses": 3,
+                    "max_uses": 16
+                }
+            ]
+        }
+    },
+    "6": {
+        "character": {
+            "main": {
+                "name": "Stephen Thompson",
+                "level": {
+                    "current": 15,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 4,
+                    "description": [
+                        "reveal",
+                        "about",
+                        "reveal"
+                    ]
+                },
+                "souls": {
+                    "total": 2872,
+                    "lost": 3805
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 13,
+                    "modifier": -2,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 29,
+                    "modifier": 2,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 10,
+                    "modifier": 2,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 44,
+                    "modifier": 4,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 22,
+                    "modifier": 9,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 15,
+                    "modifier": 2,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 808,
+                    "max": 6156,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 409,
+                    "max": 3832,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "4cc34c89-8876-4851-b257-43da9bc6d948",
+                    "name": "Guess Sword",
+                    "slot": "consumable",
+                    "type": "weapon",
+                    "damageType": "fire",
+                    "dice": "d20",
+                    "scalingStat": "DEX",
+                    "twoHanded": false,
+                    "flatBonus": 46
+                },
+                {
+                    "id": "3ce87a5c-74b0-4609-8e10-40c07e3f951f",
+                    "name": "Price Sword",
+                    "slot": "consumable",
+                    "type": "weapon",
+                    "damageType": "magic",
+                    "dice": "d4",
+                    "scalingStat": "DEX",
+                    "twoHanded": false,
+                    "flatBonus": 27
+                },
+                {
+                    "id": "38742bc8-f928-436d-9340-9682e4fdd131",
+                    "name": "Marriage Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "dark",
+                    "dice": "d100",
+                    "scalingStat": "INT",
+                    "twoHanded": false,
+                    "flatBonus": 41
+                }
+            ],
+            "armors": [],
+            "catalysts": [
+                {
+                    "id": "87995949-0de6-4dee-8b99-cbce7fa17e62",
+                    "name": "Likely Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "talisman",
+                    "flatBonus": 9
+                },
+                {
+                    "id": "f6049bdb-f5e6-46ef-ab24-8226e13929eb",
+                    "name": "Price Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "staff",
+                    "flatBonus": 13
+                }
+            ],
+            "items": [],
+            "spells": [
+                {
+                    "id": "30f6652e-b5b8-4a1a-8386-0fb4190a1ea2",
+                    "name": "Sound Spell",
+                    "slot": "left_hand",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "healing",
+                    "dice": "d8",
+                    "scalingStat": "INT",
+                    "duration": 10,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 1,
+                    "max_uses": 11
+                },
+                {
+                    "id": "712f22d7-0399-4a08-99e8-def6b8c68623",
+                    "name": "Risk Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "cryomancy",
+                    "effectType": "buff",
+                    "dice": "d20",
+                    "scalingStat": "STR",
+                    "duration": 9,
+                    "requiresCatalyst": "talisman",
+                    "uses": 2,
+                    "max_uses": 19
+                },
+                {
+                    "id": "e9be4345-abbd-47ef-8bef-777cd69ec3e5",
+                    "name": "Think Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "healing",
+                    "dice": "d4",
+                    "scalingStat": null,
+                    "duration": 3,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 2,
+                    "max_uses": 17
+                },
+                {
+                    "id": "e097944e-af56-4193-b124-b68ee6942020",
+                    "name": "Second Spell",
+                    "slot": "left_hand",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "utility",
+                    "dice": "d8",
+                    "scalingStat": "FTH",
+                    "duration": 10,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 1,
+                    "max_uses": 17
+                },
+                {
+                    "id": "634dcdab-a784-4ec7-8662-cd908f033aae",
+                    "name": "Can Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "cryomancy",
+                    "effectType": "damage",
+                    "dice": "d6",
+                    "scalingStat": "INT",
+                    "duration": 9,
+                    "requiresCatalyst": "staff",
+                    "uses": 3,
+                    "max_uses": 20
+                }
+            ]
+        }
+    },
+    "7": {
+        "character": {
+            "main": {
+                "name": "Timothy Gutierrez",
+                "level": {
+                    "current": 36,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 3,
+                    "description": [
+                        "help",
+                        "establish",
+                        "agency"
+                    ]
+                },
+                "souls": {
+                    "total": 3437,
+                    "lost": 538
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 26,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 74,
+                    "modifier": 4,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 67,
+                    "modifier": -2,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 31,
+                    "modifier": -5,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 52,
+                    "modifier": -3,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 63,
+                    "modifier": 8,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 151,
+                    "max": 1398,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 379,
+                    "max": 906,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "f0123af8-689e-4f03-b4b8-4de037a9a626",
+                    "name": "Edge Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "magic",
+                    "dice": "d20",
+                    "scalingStat": "DEX",
+                    "twoHanded": true,
+                    "flatBonus": 5
+                },
+                {
+                    "id": "b0abc78b-25af-4f5e-8493-e09f0bcbc9e5",
+                    "name": "Employee Sword",
+                    "slot": "armor",
+                    "type": "weapon",
+                    "damageType": "piercing",
+                    "dice": "d8",
+                    "scalingStat": "INT",
+                    "twoHanded": true,
+                    "flatBonus": 19
+                }
+            ],
+            "armors": [
+                {
+                    "id": "52899c37-b04e-4b07-8b74-7e4bdd64e86a",
+                    "name": "American Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "lightning",
+                    "flatBonus": 22
+                },
+                {
+                    "id": "7ed20542-7e3a-40e4-b0ee-0d5614363273",
+                    "name": "Join Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "heavy",
+                    "flatBonus": 3
+                },
+                {
+                    "id": "51b7acea-b942-444e-beca-1a75666827d2",
+                    "name": "Look Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "heavy",
+                    "flatBonus": 7
+                }
+            ],
+            "catalysts": [],
+            "items": [
+                {
+                    "id": "c7a8db2b-bf00-4aef-b0d7-b3184e5c19d9",
+                    "name": "Check Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Business work card decide.",
+                    "uses": 1,
+                    "max_uses": 10
+                },
+                {
+                    "id": "eb8ff48b-f7e9-40be-a015-d63eefb0199a",
+                    "name": "Company Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "World president message organization outside.",
+                    "uses": 3,
+                    "max_uses": 15
+                }
+            ],
+            "spells": [
+                {
+                    "id": "08639843-9c40-4a12-aa8c-4fe72c0f9873",
+                    "name": "Suffer Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "miracle",
+                    "effectType": "healing",
+                    "dice": "d12",
+                    "scalingStat": "FTH",
+                    "duration": 4,
+                    "requiresCatalyst": "staff",
+                    "uses": 4,
+                    "max_uses": 10
+                },
+                {
+                    "id": "a4b6794a-0443-4212-ab7f-cd6a0a825719",
+                    "name": "Door Spell",
+                    "slot": "left_hand",
+                    "type": "spell",
+                    "spellType": "miracle",
+                    "effectType": "healing",
+                    "dice": "d12",
+                    "scalingStat": "STR",
+                    "duration": 2,
+                    "requiresCatalyst": "chime",
+                    "uses": 3,
+                    "max_uses": 13
+                },
+                {
+                    "id": "4ddede0e-eb9b-4c22-9689-dead133724a6",
+                    "name": "Thus Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "buff",
+                    "dice": "d8",
+                    "scalingStat": "STR",
+                    "duration": 4,
+                    "requiresCatalyst": "staff",
+                    "uses": 1,
+                    "max_uses": 9
+                },
+                {
+                    "id": "cdff5fbe-622e-46ad-b97e-b9e6c81ecd48",
+                    "name": "On Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "magic",
+                    "effectType": "healing",
+                    "dice": "d10",
+                    "scalingStat": null,
+                    "duration": 10,
+                    "requiresCatalyst": "chime",
+                    "uses": 4,
+                    "max_uses": 5
+                },
+                {
+                    "id": "616aa396-a5e6-474f-b783-d3192bbf1da4",
+                    "name": "Sea Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "miracle",
+                    "effectType": "healing",
+                    "dice": "d100",
+                    "scalingStat": "FTH",
+                    "duration": 10,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 2,
+                    "max_uses": 14
+                }
+            ]
+        }
+    },
+    "8": {
+        "character": {
+            "main": {
+                "name": "Jacqueline Fitzgerald",
+                "level": {
+                    "current": 61,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 4,
+                    "description": [
+                        "look",
+                        "answer",
+                        "fish"
+                    ]
+                },
+                "souls": {
+                    "total": 8662,
+                    "lost": 3680
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 44,
+                    "modifier": -4,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 43,
+                    "modifier": 7,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 14,
+                    "modifier": 9,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 56,
+                    "modifier": 3,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 40,
+                    "modifier": 1,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 87,
+                    "modifier": 8,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 761,
+                    "max": 6224,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 294,
+                    "max": 522,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [],
+            "armors": [],
+            "catalysts": [],
+            "items": [
+                {
+                    "id": "4346ee3a-6290-40a8-809a-aa9563fd0659",
+                    "name": "Them Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "material",
+                    "effect": "Body floor phone who.",
+                    "uses": 7,
+                    "max_uses": 41
+                },
+                {
+                    "id": "102746b6-c0dc-422b-be02-30c0589f2415",
+                    "name": "Real Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Different prove society late nation.",
+                    "uses": 4,
+                    "max_uses": 13
+                },
+                {
+                    "id": "b075eb10-315e-4a53-9022-06795e7fc3aa",
+                    "name": "Image Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Too onto life grow deal.",
+                    "uses": 7,
+                    "max_uses": 27
+                },
+                {
+                    "id": "98576846-48e8-4d76-a0b7-899f79217bd9",
+                    "name": "Reason Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Mission education country Republican care.",
+                    "uses": 2,
+                    "max_uses": 17
+                },
+                {
+                    "id": "0f2d62fe-d70a-4385-a62e-a4f4c551750a",
+                    "name": "Democratic Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Into wall time candidate left box.",
+                    "uses": 9,
+                    "max_uses": 48
+                },
+                {
+                    "id": "0ec2211f-e109-433a-889d-f1e067ca6805",
+                    "name": "Join Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Bill product consumer people return energy.",
+                    "uses": 3,
+                    "max_uses": 42
+                },
+                {
+                    "id": "f14fb3ce-29bf-4a89-941f-cee1e23d0198",
+                    "name": "Wait Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Rock forget crime woman four carry mean.",
+                    "uses": 9,
+                    "max_uses": 13
+                }
+            ],
+            "spells": [
+                {
+                    "id": "025441e4-4a2a-4c02-aedc-0619527f2af9",
+                    "name": "Become Spell",
+                    "slot": "left_hand",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "damage",
+                    "dice": "d8",
+                    "scalingStat": "DEX",
+                    "duration": 6,
+                    "requiresCatalyst": "talisman",
+                    "uses": 3,
+                    "max_uses": 13
+                },
+                {
+                    "id": "ebbb449f-5193-45e2-95bd-a252d3fcc1a4",
+                    "name": "Discuss Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "miracle",
+                    "effectType": "utility",
+                    "dice": "d6",
+                    "scalingStat": "FTH",
+                    "duration": 1,
+                    "requiresCatalyst": "staff",
+                    "uses": 2,
+                    "max_uses": 13
+                }
+            ]
+        }
+    },
+    "9": {
+        "character": {
+            "main": {
+                "name": "Megan Blair",
+                "level": {
+                    "current": 13,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 1,
+                    "description": [
+                        "consumer",
+                        "its",
+                        "above"
+                    ]
+                },
+                "souls": {
+                    "total": 899,
+                    "lost": 1707
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 46,
+                    "modifier": 4,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 81,
+                    "modifier": -3,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 68,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 4,
+                    "modifier": -1,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 62,
+                    "modifier": 9,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 82,
+                    "modifier": 0,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 482,
+                    "max": 9836,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 285,
+                    "max": 2117,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "3a15fc36-bbe9-4eb3-9d10-83f8532ca10e",
+                    "name": "With Sword",
+                    "slot": "left_hand",
+                    "type": "weapon",
+                    "damageType": "bludgeoning",
+                    "dice": "d20",
+                    "scalingStat": "FTH",
+                    "twoHanded": false,
+                    "flatBonus": 37
+                }
+            ],
+            "armors": [
+                {
+                    "id": "a6dd4b99-d439-47f9-8bf8-388d46018c07",
+                    "name": "Project Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "medium",
+                    "flatBonus": 15
+                }
+            ],
+            "catalysts": [
+                {
+                    "id": "8882d251-fc00-48b7-ae0e-ad483e6b5a53",
+                    "name": "Against Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "staff",
+                    "flatBonus": 11
+                },
+                {
+                    "id": "c51163fb-981d-4706-9612-9d06886fcb82",
+                    "name": "Total Catalyst",
+                    "slot": "left_hand",
+                    "type": "catalyst",
+                    "catalystType": "pyromancy flame",
+                    "flatBonus": 20
+                },
+                {
+                    "id": "940aff5d-8406-44b8-bf24-bd780f053e5a",
+                    "name": "Owner Catalyst",
+                    "slot": "right_hand",
+                    "type": "catalyst",
+                    "catalystType": "staff",
+                    "flatBonus": 4
+                }
+            ],
+            "items": [
+                {
+                    "id": "b832f623-83e9-428d-9815-6f32a936015e",
+                    "name": "Against Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Life popular audience upon.",
+                    "uses": 10,
+                    "max_uses": 26
+                },
+                {
+                    "id": "2e4d8b9c-f179-4975-92b5-75b325f27891",
+                    "name": "Special Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "material",
+                    "effect": "Success space turn minute.",
+                    "uses": 3,
+                    "max_uses": 18
+                },
+                {
+                    "id": "041931fd-9980-4fa4-9e14-51c6c116c876",
+                    "name": "Tv Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Education level world air.",
+                    "uses": 9,
+                    "max_uses": 44
+                }
+            ],
+            "spells": [
+                {
+                    "id": "f230c3c3-0276-435a-a6e3-05b2a0b8b316",
+                    "name": "Federal Spell",
+                    "slot": "consumable",
+                    "type": "spell",
+                    "spellType": "cryomancy",
+                    "effectType": "debuff",
+                    "dice": "d20",
+                    "scalingStat": "FTH",
+                    "duration": 4,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 1,
+                    "max_uses": 18
+                },
+                {
+                    "id": "55ae152f-bb2d-4e56-9275-c74662f4de3b",
+                    "name": "Image Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "sorcery",
+                    "effectType": "damage",
+                    "dice": "d8",
+                    "scalingStat": "INT",
+                    "duration": 9,
+                    "requiresCatalyst": "pyromancy flame",
+                    "uses": 1,
+                    "max_uses": 6
+                }
+            ]
+        }
+    },
+    "10": {
+        "character": {
+            "main": {
+                "name": "Alicia Finley",
+                "level": {
+                    "current": 14,
+                    "max": 100
+                },
+                "hollowing": {
+                    "level": 5,
+                    "description": [
+                        "fly",
+                        "significant",
+                        "seat"
+                    ]
+                },
+                "souls": {
+                    "total": 5998,
+                    "lost": 3378
+                }
+            },
+            "stats": {
+                "STR": {
+                    "value": 82,
+                    "modifier": -5,
+                    "icon": null,
+                    "label": "Strength"
+                },
+                "DEX": {
+                    "value": 77,
+                    "modifier": 5,
+                    "icon": null,
+                    "label": "Dexterity"
+                },
+                "FTH": {
+                    "value": 66,
+                    "modifier": -5,
+                    "icon": null,
+                    "label": "Faith"
+                },
+                "INT": {
+                    "value": 31,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Intelligence"
+                },
+                "VIT": {
+                    "value": 79,
+                    "modifier": 2,
+                    "icon": null,
+                    "label": "Vitality"
+                },
+                "END": {
+                    "value": 56,
+                    "modifier": 6,
+                    "icon": null,
+                    "label": "Endurance"
+                }
+            },
+            "resources": {
+                "HP": {
+                    "current": 484,
+                    "max": 9975,
+                    "icon": null,
+                    "label": "Health"
+                },
+                "MP": {
+                    "current": 482,
+                    "max": 3907,
+                    "icon": null,
+                    "label": "Mana"
+                }
+            }
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "id": "c4e8dee1-248e-403d-a493-29759d127dc4",
+                    "name": "Accept Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "magic",
+                    "dice": "d8",
+                    "scalingStat": null,
+                    "twoHanded": true,
+                    "flatBonus": 21
+                },
+                {
+                    "id": "43673e6e-5aad-4a6f-8dbc-6375aecfd259",
+                    "name": "Probably Sword",
+                    "slot": "armor",
+                    "type": "weapon",
+                    "damageType": "slashing",
+                    "dice": "d6",
+                    "scalingStat": "STR",
+                    "twoHanded": true,
+                    "flatBonus": 43
+                },
+                {
+                    "id": "37b7d7ce-d2a8-4f7e-84d8-d6e49a693b42",
+                    "name": "Mean Sword",
+                    "slot": "consumable",
+                    "type": "weapon",
+                    "damageType": "magic",
+                    "dice": "d6",
+                    "scalingStat": "DEX",
+                    "twoHanded": false,
+                    "flatBonus": 49
+                },
+                {
+                    "id": "a10d2237-c36b-410a-80cb-8db33a44448a",
+                    "name": "Measure Sword",
+                    "slot": "right_hand",
+                    "type": "weapon",
+                    "damageType": "dark",
+                    "dice": "d12",
+                    "scalingStat": "STR",
+                    "twoHanded": true,
+                    "flatBonus": 22
+                },
+                {
+                    "id": "e4ce623b-d152-43b2-bfed-187ee1d65ed5",
+                    "name": "Economy Sword",
+                    "slot": "left_hand",
+                    "type": "weapon",
+                    "damageType": "lightning",
+                    "dice": "d100",
+                    "scalingStat": "DEX",
+                    "twoHanded": false,
+                    "flatBonus": 31
+                }
+            ],
+            "armors": [
+                {
+                    "id": "6169e256-8055-4db7-bab7-e5de78a4f4ae",
+                    "name": "Project Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "lightning",
+                    "flatBonus": 18
+                },
+                {
+                    "id": "cdb025f0-9293-4781-92ac-d16a39182814",
+                    "name": "Prove Armor",
+                    "slot": "armor",
+                    "type": "armor",
+                    "armorType": "heavy",
+                    "flatBonus": 28
+                }
+            ],
+            "catalysts": [],
+            "items": [
+                {
+                    "id": "85c2555c-2f20-42f0-a22e-9d152ab0dc7b",
+                    "name": "Themselves Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Century system outside paper impact.",
+                    "uses": 10,
+                    "max_uses": 31
+                },
+                {
+                    "id": "472b4d33-99c3-4d10-a2b1-21867c26f118",
+                    "name": "Protect Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Old cut while cause.",
+                    "uses": 10,
+                    "max_uses": 38
+                },
+                {
+                    "id": "089827cb-87b5-4dcf-b29d-180425857d77",
+                    "name": "Even Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "estus",
+                    "effect": "Start wife list quality admit.",
+                    "uses": 1,
+                    "max_uses": 42
+                },
+                {
+                    "id": "dad29845-c638-40a9-b9bf-551949edec8c",
+                    "name": "Also Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Opportunity tree share simple soldier.",
+                    "uses": 7,
+                    "max_uses": 50
+                },
+                {
+                    "id": "edfa96d8-c666-499b-a4d6-3b4d7987ef0f",
+                    "name": "Sure Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "key",
+                    "effect": "Charge worry star somebody audience gas.",
+                    "uses": 4,
+                    "max_uses": 41
+                },
+                {
+                    "id": "7fdd3565-da29-4279-a27e-276716f2094d",
+                    "name": "Role Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Safe opportunity several similar section baby my.",
+                    "uses": 10,
+                    "max_uses": 46
+                },
+                {
+                    "id": "d5509ecb-9792-4666-b033-e8089fd1d1ce",
+                    "name": "Rest Flask",
+                    "slot": "consumable",
+                    "type": "consumable",
+                    "consumableType": "misc",
+                    "effect": "Southern lot him piece accept tax her country.",
+                    "uses": 7,
+                    "max_uses": 27
+                }
+            ],
+            "spells": [
+                {
+                    "id": "ba84f2fc-2e49-4c96-8191-4e4b8321ff77",
+                    "name": "Before Spell",
+                    "slot": "right_hand",
+                    "type": "spell",
+                    "spellType": "miracle",
+                    "effectType": "utility",
+                    "dice": "d6",
+                    "scalingStat": "FTH",
+                    "duration": 3,
+                    "requiresCatalyst": "talisman",
+                    "uses": 3,
+                    "max_uses": 19
+                }
+            ]
+        }
+    }
+}
