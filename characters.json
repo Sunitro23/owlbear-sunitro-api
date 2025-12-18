@@ -1,3716 +1,1209 @@
 {
   "1": {
     "character": {
-      "name": "Ernest Carey",
-      "image": "https://placekitten.com/300/300",
+      "name": "Monique Burgess",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 44,
+      "souls": 9128,
       "resources": {
-        "level": {
-          "value": 90,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 5190,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
         "HP": {
-          "value": 638,
-          "max": 5737,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
+          "current": 857,
+          "maximum": 1026
         },
         "AP": {
-          "value": 65,
-          "max": 2517,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
+          "current": 242,
+          "maximum": 415
         },
         "SpellSlots": {
-          "value": 4,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
+          "current": 4,
+          "maximum": 6
+        },
+        "Hollowing": {
+          "current": 4,
+          "maximum": 10
         }
       },
       "stats": {
         "STR": {
-          "value": 42,
-          "modifier": 8,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
+          "value": 8,
+          "modifier": 10
         },
         "DEX": {
-          "value": 42,
-          "modifier": 6,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
+          "value": 13,
+          "modifier": -2
         },
         "FTH": {
-          "value": 99,
-          "modifier": 6,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
+          "value": 50,
+          "modifier": 5
         },
         "INT": {
-          "value": 35,
-          "modifier": -4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
+          "value": 23,
+          "modifier": 16
         },
         "VIT": {
-          "value": 23,
-          "modifier": -1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
+          "value": 45,
+          "modifier": -6
         },
         "END": {
-          "value": 9,
-          "modifier": -3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
+          "value": 26,
+          "modifier": -7
         }
       }
     },
     "inventory": {
-      "weapons": [],
+      "weapons": [
+        {
+          "name": "Case Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "dark",
+          "dice": "d8",
+          "scalingStat": "STR",
+          "twoHanded": true,
+          "flatBonus": 17
+        },
+        {
+          "name": "How Staff",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/court_sorcerers_staff-icon.png",
+          "slot": "left_hand",
+          "type": "weapon",
+          "damageType": "piercing",
+          "dice": "d12",
+          "scalingStat": "INT",
+          "twoHanded": true,
+          "flatBonus": 45
+        }
+      ],
       "armors": [],
       "catalysts": [],
       "items": [
         {
-          "id": "1dd31d1c-8ef2-475a-8de4-ddba7330b5ef",
-          "name": "Hundred Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Same two democratic simply pattern suffer professional.",
-          "uses": 7,
-          "max_uses": 15
-        },
-        {
-          "id": "f57f48b7-365e-45ff-b1e6-53581b619004",
-          "name": "Free Flask",
+          "name": "May Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
           "slot": "consumable",
           "type": "consumable",
           "consumableType": "key",
-          "effect": "Relationship red increase together.",
-          "uses": 9,
-          "max_uses": 46
-        },
-        {
-          "id": "e3de40d9-f1b2-4396-90d2-58317332ce7f",
-          "name": "West Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Floor enough I yard.",
+          "effect": "Question during rock share movement civil.",
           "uses": 1,
-          "max_uses": 14
-        },
-        {
-          "id": "7ddd8aa1-f9cf-4eac-83f2-588a8844d510",
-          "name": "Month Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Offer amount improve open my newspaper throw under.",
-          "uses": 5,
-          "max_uses": 14
-        },
-        {
-          "id": "de767997-1be6-4381-825a-e0f431b88572",
-          "name": "Red Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Before part language red some campaign.",
-          "uses": 6,
-          "max_uses": 43
-        },
-        {
-          "id": "7720d564-c4c9-468b-b8fe-e5c3ec6f196a",
-          "name": "Beautiful Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Easy lose wait attack debate marriage.",
-          "uses": 8,
-          "max_uses": 35
-        },
-        {
-          "id": "81ef84cd-41f2-4677-a3d3-061da7b24ab4",
-          "name": "Doctor Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Tonight usually peace investment them.",
-          "uses": 10,
-          "max_uses": 41
-        },
-        {
-          "id": "ff9eb799-8213-4855-b2d0-3d43a4321bc5",
-          "name": "Wait Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Go remember organization century table nature choose.",
-          "uses": 3,
-          "max_uses": 23
-        },
-        {
-          "id": "9607870f-61ee-4256-8856-87b81f2c264b",
-          "name": "Another Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Team order bed lawyer sit end respond prepare.",
-          "uses": 9,
-          "max_uses": 41
-        },
-        {
-          "id": "5705bd45-fda5-4499-a985-653e3fc7d0f7",
-          "name": "Several Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Along cold section wind arm.",
-          "uses": 7,
-          "max_uses": 32
-        },
-        {
-          "id": "71c95146-b1fa-46d8-bf82-1c23e77b0ec4",
-          "name": "Each Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Company career red alone.",
-          "uses": 2,
-          "max_uses": 31
-        },
-        {
-          "id": "db3e2fd9-a354-4445-946e-52969135c680",
-          "name": "Put Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Ten activity tree news country.",
-          "uses": 8,
-          "max_uses": 22
-        },
-        {
-          "id": "43d3644c-a7fe-48e2-a544-1ea7cb3ed9d2",
-          "name": "Reach Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Piece else old determine.",
-          "uses": 3,
-          "max_uses": 43
-        },
-        {
-          "id": "c2bcc969-c241-4a87-8542-8071cdcfd9a8",
-          "name": "Everyone Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Close claim still politics.",
-          "uses": 3,
-          "max_uses": 15
-        },
-        {
-          "id": "589292d8-2cfb-4dee-90d1-ee3fc0323b7f",
-          "name": "Character Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Report cut price claim although.",
-          "uses": 8,
-          "max_uses": 12
-        },
-        {
-          "id": "f9e1afee-5206-473c-83e5-7cf4cb87b8dd",
-          "name": "Current Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Police believe support fast view relate possible law.",
-          "uses": 2,
-          "max_uses": 23
-        },
-        {
-          "id": "bbd61f07-bdcd-4ff0-9437-c917b5e574ca",
-          "name": "Culture Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Science set health light north do fill.",
-          "uses": 4,
-          "max_uses": 38
-        },
-        {
-          "id": "b44c2f65-d9a6-4bea-bc35-ea1bb03adf77",
-          "name": "Decade Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "When rule voice response.",
-          "uses": 7,
-          "max_uses": 15
-        },
-        {
-          "id": "4ba11132-edad-4e3a-9407-c0feadb2c58c",
-          "name": "Suggest Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Fast air stock recognize avoid need.",
-          "uses": 4,
-          "max_uses": 45
-        },
-        {
-          "id": "b4c5bfa5-4615-4e0a-94b1-4dc0ce2fa0b5",
-          "name": "Whom Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Property that stuff consider avoid especially wait growth.",
-          "uses": 7,
-          "max_uses": 38
-        },
-        {
-          "id": "d73c3d72-80a8-43ae-b8d0-346bb17bac45",
-          "name": "Leader Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Line worker level minute.",
-          "uses": 4,
-          "max_uses": 13
-        },
-        {
-          "id": "41938d7a-f257-4f33-8fcb-15db578ef5ef",
-          "name": "Significant Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Sort forward two floor computer door.",
-          "uses": 2,
-          "max_uses": 32
-        },
-        {
-          "id": "510c1b8d-c01f-4c80-a06d-7a1aae3bb27c",
-          "name": "Ahead Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Own might heavy she eye me.",
-          "uses": 6,
-          "max_uses": 48
-        },
-        {
-          "id": "6ceda4be-67c0-4c0b-beaa-1f17d565f3d0",
-          "name": "Threat Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Buy hospital rule speak usually wonder.",
-          "uses": 8,
-          "max_uses": 22
+          "max_uses": 39
         }
       ],
       "spells": [
         {
-          "id": "8e39dca5-9b5c-4c58-a83c-f53a7bb30406",
-          "name": "Any Spell",
-          "slot": "spell_3",
+          "name": "Summer Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
           "type": "spell",
-          "spellType": "magic",
+          "spellType": "cryomancy",
           "effectType": "damage",
-          "dice": "d100",
+          "dice": "d10",
           "scalingStat": "DEX",
           "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 2,
+          "requiresCatalyst": "chime",
+          "uses": 4,
           "max_uses": null
         },
         {
-          "id": "4ead3d43-3632-4f4e-8640-ab8da38fd7a6",
-          "name": "Attention Spell",
-          "slot": "spell_2",
+          "name": "Rock Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
           "type": "spell",
           "spellType": "cryomancy",
           "effectType": "healing",
           "dice": "d6",
-          "scalingStat": "STR",
-          "duration": 7,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 2,
-          "max_uses": 9
-        },
-        {
-          "id": "3c5b4ea2-29b1-4bed-ad25-5daebe700106",
-          "name": "Hold Spell",
-          "slot": "spell_3",
-          "type": "spell",
-          "spellType": "miracle",
-          "effectType": "damage",
-          "dice": "d100",
-          "scalingStat": null,
+          "scalingStat": "FTH",
           "duration": null,
           "requiresCatalyst": "talisman",
           "uses": 1,
-          "max_uses": null
-        },
-        {
-          "id": "ee1b7ca1-8357-41ac-b135-84f42e4d28fb",
-          "name": "Difficult Spell",
-          "slot": "spell_4",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "healing",
-          "dice": "d4",
-          "scalingStat": "STR",
-          "duration": 1,
-          "requiresCatalyst": "talisman",
-          "uses": 2,
-          "max_uses": null
+          "max_uses": 13
         }
       ]
     }
   },
   "2": {
     "character": {
-      "name": "Joseph Watts",
-      "image": "https://dummyimage.com/300x300",
+      "name": "Mark Price",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 73,
+      "souls": 2728,
       "resources": {
-        "level": {
-          "value": 72,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 9117,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
         "HP": {
-          "value": 474,
-          "max": 4523,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
+          "current": 716,
+          "maximum": 869
         },
         "AP": {
-          "value": 438,
-          "max": 2604,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
+          "current": 490,
+          "maximum": 606
         },
         "SpellSlots": {
-          "value": 1,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
+          "current": 3,
+          "maximum": 6
+        },
+        "Hollowing": {
+          "current": 3,
+          "maximum": 10
         }
       },
       "stats": {
         "STR": {
-          "value": 10,
-          "modifier": 0,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
+          "value": 61,
+          "modifier": 2
         },
         "DEX": {
-          "value": 60,
-          "modifier": 0,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
-        },
-        "FTH": {
-          "value": 32,
-          "modifier": 2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
-        },
-        "INT": {
           "value": 18,
-          "modifier": 6,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
-        },
-        "VIT": {
-          "value": 34,
-          "modifier": 9,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
-        },
-        "END": {
-          "value": 78,
-          "modifier": 10,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "id": "ef1cf609-4b7c-4c2a-8176-6854a82caba3",
-          "name": "Recognize Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "lightning",
-          "dice": "d100",
-          "scalingStat": "FTH",
-          "twoHanded": true,
-          "flatBonus": 23
-        },
-        {
-          "id": "2c2a721d-9d16-4c30-ad76-fd60830c7f1f",
-          "name": "Without Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "fire",
-          "dice": "d20",
-          "scalingStat": "STR",
-          "twoHanded": false,
-          "flatBonus": 42
-        },
-        {
-          "id": "e32a2491-1a30-4d44-98dd-c3b886a1c820",
-          "name": "Clear Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "bludgeoning",
-          "dice": "d10",
-          "scalingStat": "STR",
-          "twoHanded": true,
-          "flatBonus": 32
-        },
-        {
-          "id": "33cb4d91-7308-43f9-9ded-715bee3a43d6",
-          "name": "Smile Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "magic",
-          "dice": "d6",
-          "scalingStat": "INT",
-          "twoHanded": true,
-          "flatBonus": 5
-        }
-      ],
-      "armors": [],
-      "catalysts": [
-        {
-          "id": "67fe3e4a-baef-42ea-bde0-55b3a7afcb52",
-          "name": "Floor Catalyst",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "staff",
-          "flatBonus": 8
-        },
-        {
-          "id": "35985a90-655e-4d24-a32c-fdf377f47579",
-          "name": "Situation Catalyst",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "staff",
-          "flatBonus": 7
-        }
-      ],
-      "items": [
-        {
-          "id": "ce7a5c99-22f9-4088-91e6-e968abddaec8",
-          "name": "Fast Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Who director if occur resource off.",
-          "uses": 6,
-          "max_uses": 41
-        },
-        {
-          "id": "68bde511-7ac9-4533-b403-3f61bbab065b",
-          "name": "Seven Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Person after million inside.",
-          "uses": 8,
-          "max_uses": 44
-        },
-        {
-          "id": "53f88cdc-58ce-42aa-b7ca-0d5b36220ce1",
-          "name": "Whether Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Mouth eye big grow.",
-          "uses": 3,
-          "max_uses": 22
-        },
-        {
-          "id": "581261d8-ccaf-4068-830c-a11558f26e0e",
-          "name": "So Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Seven hair else message bit know stage trouble.",
-          "uses": 9,
-          "max_uses": 43
-        },
-        {
-          "id": "53df019d-18c5-493b-82f6-80b26cc50c41",
-          "name": "Game Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Open live career pretty last attorney talk.",
-          "uses": 2,
-          "max_uses": 16
-        },
-        {
-          "id": "38fe1a27-eb1f-4ecd-bb0a-ead024d268ee",
-          "name": "Now Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Assume method wide.",
-          "uses": 5,
-          "max_uses": 50
-        },
-        {
-          "id": "7029f322-3c93-46b2-89ce-7c58a5c62e8c",
-          "name": "Level Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Magazine large model stuff raise company hotel.",
-          "uses": 1,
-          "max_uses": 22
-        },
-        {
-          "id": "8e9caf63-46bf-4165-b22f-6158d9f24b49",
-          "name": "Knowledge Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Certainly material daughter reason.",
-          "uses": 5,
-          "max_uses": 46
-        },
-        {
-          "id": "4741c4ca-dbac-4a1a-8446-720a809dfb09",
-          "name": "Without Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Put politics where information short enter.",
-          "uses": 7,
-          "max_uses": 47
-        },
-        {
-          "id": "1abf02bf-4fce-476c-93cd-655edbbe9c69",
-          "name": "And Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Generation then TV my able.",
-          "uses": 5,
-          "max_uses": 12
-        },
-        {
-          "id": "9f564546-f672-463c-aa62-468ee2fdbcf8",
-          "name": "Water Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Material ability project suddenly their.",
-          "uses": 9,
-          "max_uses": 38
-        },
-        {
-          "id": "c5e24f89-60c5-45a4-b96a-7093b6b220c3",
-          "name": "Above Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Positive level paper five relate group they.",
-          "uses": 5,
-          "max_uses": 44
-        },
-        {
-          "id": "16633fd8-7e57-46bf-90d4-00b292269caa",
-          "name": "Along Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Plant bar purpose reduce hour executive.",
-          "uses": 3,
-          "max_uses": 37
-        },
-        {
-          "id": "e0c8cdaf-72a5-4951-84c5-5c401296c2bf",
-          "name": "Here Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Miss easy wall.",
-          "uses": 2,
-          "max_uses": 47
-        },
-        {
-          "id": "323fbc24-2e6e-42d6-af5c-b9564e725566",
-          "name": "Develop Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Value federal much task off.",
-          "uses": 7,
-          "max_uses": 24
-        },
-        {
-          "id": "621f420a-481a-413c-bad9-a24103af1c30",
-          "name": "Organization Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Sing treatment assume hospital word get capital.",
-          "uses": 6,
-          "max_uses": 36
-        },
-        {
-          "id": "dfca441f-eb87-42a0-8936-2ab42d78e1e6",
-          "name": "Five Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Or win list perform.",
-          "uses": 8,
-          "max_uses": 34
-        },
-        {
-          "id": "a8fb946b-739c-453d-b9e1-9424d986999a",
-          "name": "Television Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Treatment far name team material reason rather.",
-          "uses": 7,
-          "max_uses": 42
-        },
-        {
-          "id": "a9dade40-b73c-43ef-8019-43eb3ea12b66",
-          "name": "Protect Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "You hotel upon decision father.",
-          "uses": 1,
-          "max_uses": 34
-        },
-        {
-          "id": "cd68fa5f-2751-4bd0-a797-be7314e86809",
-          "name": "Reveal Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Themselves kid meet show.",
-          "uses": 2,
-          "max_uses": 24
-        },
-        {
-          "id": "920f4981-ed12-44e1-9e93-0838aa57e2b5",
-          "name": "Much Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Store power still choice.",
-          "uses": 9,
-          "max_uses": 30
-        }
-      ],
-      "spells": [
-        {
-          "id": "8ed4d7f1-3a43-4085-b6a8-b416385f3066",
-          "name": "Kid Spell",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "healing",
-          "dice": "d8",
-          "scalingStat": "FTH",
-          "duration": 5,
-          "requiresCatalyst": "talisman",
-          "uses": 4,
-          "max_uses": 18
-        },
-        {
-          "id": "3d81b805-aa71-4587-b560-ac000291bf4e",
-          "name": "Film Spell",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "healing",
-          "dice": "d8",
-          "scalingStat": null,
-          "duration": 7,
-          "requiresCatalyst": "chime",
-          "uses": 4,
-          "max_uses": 20
-        }
-      ]
-    }
-  },
-  "3": {
-    "character": {
-      "name": "Joshua Phillips",
-      "image": "https://dummyimage.com/300x300",
-      "resources": {
-        "level": {
-          "value": 74,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 6787,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
-        "HP": {
-          "value": 222,
-          "max": 9276,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
-        },
-        "AP": {
-          "value": 104,
-          "max": 3899,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
-        },
-        "SpellSlots": {
-          "value": 3,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 97,
-          "modifier": -1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
-        },
-        "DEX": {
-          "value": 49,
-          "modifier": 9,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
+          "modifier": 2
         },
         "FTH": {
-          "value": 23,
-          "modifier": 10,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
+          "value": 10,
+          "modifier": 13
         },
         "INT": {
-          "value": 49,
-          "modifier": -3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
+          "value": 57,
+          "modifier": 0
         },
         "VIT": {
-          "value": 91,
-          "modifier": 10,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
+          "value": 29,
+          "modifier": -1
         },
         "END": {
-          "value": 56,
-          "modifier": 0,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
+          "value": 15,
+          "modifier": 2
         }
       }
     },
     "inventory": {
       "weapons": [
         {
-          "id": "1379ad6e-e63b-4d3d-b975-985c10288a5f",
-          "name": "High Sword",
-          "slot": "left_hand",
+          "name": "Hold Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
           "type": "weapon",
           "damageType": "dark",
-          "dice": "d4",
-          "scalingStat": "STR",
-          "twoHanded": false,
-          "flatBonus": 7
-        },
-        {
-          "id": "c6096c64-6283-4412-b69f-a9a7a615efd1",
-          "name": "Win Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "frost",
-          "dice": "d8",
-          "scalingStat": null,
-          "twoHanded": false,
-          "flatBonus": 17
-        },
-        {
-          "id": "7410a760-c8c4-4583-b31f-10450435e643",
-          "name": "Shake Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "piercing",
-          "dice": "d12",
-          "scalingStat": "INT",
+          "dice": "d10",
+          "scalingStat": "FTH",
           "twoHanded": null,
           "flatBonus": 26
-        }
-      ],
-      "armors": [
-        {
-          "id": "03d0d678-162d-48fa-ae59-d985cabc7ed9",
-          "name": "Will Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "dark",
-          "flatBonus": 22
         },
         {
-          "id": "84124168-2e42-4fb1-98b2-0cf8a70ed6b8",
-          "name": "Road Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "magic",
-          "flatBonus": 22
-        }
-      ],
-      "catalysts": [
-        {
-          "id": "794a7439-7d72-4f8a-9ae8-08b7e41470aa",
-          "name": "Continue Catalyst",
-          "slot": "right_hand",
-          "type": "catalyst",
-          "catalystType": "pyromancy flame",
-          "flatBonus": 12
-        }
-      ],
-      "items": [
-        {
-          "id": "24cbb1d0-53a7-400d-9c64-21215f0f4f67",
-          "name": "Interest Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Follow customer question girl determine month participant camera.",
-          "uses": 9,
-          "max_uses": 47
-        },
-        {
-          "id": "ea71241b-661a-417b-8f42-b06bf7f82542",
-          "name": "Everybody Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Team seat prepare institution I experience.",
-          "uses": 1,
-          "max_uses": 20
-        },
-        {
-          "id": "489ffd5a-8275-446e-bb94-d2f0ebeb67c1",
-          "name": "System Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Theory grow already next.",
-          "uses": 7,
-          "max_uses": 39
-        },
-        {
-          "id": "86a44ef3-6859-4f08-86d7-86d88752c415",
-          "name": "Call Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Hold mouth ask him home still.",
-          "uses": 6,
-          "max_uses": 13
-        },
-        {
-          "id": "84eb4f84-7e58-44cb-bfe1-665bf8bad6bd",
-          "name": "Protect Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Mention explain form.",
-          "uses": 2,
-          "max_uses": 14
-        },
-        {
-          "id": "b385faf3-5cdf-4f1c-868a-c8aac25bdb5b",
-          "name": "Before Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Determine little be newspaper charge town many.",
-          "uses": 6,
-          "max_uses": 35
-        },
-        {
-          "id": "185e2298-5a37-4f45-9704-808b9acb2d76",
-          "name": "Student Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Thing ok only create.",
-          "uses": 7,
-          "max_uses": 46
-        },
-        {
-          "id": "25bc4e10-fa20-4d55-8d52-2082f3e46f98",
-          "name": "Important Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Expert own suggest push.",
-          "uses": 6,
-          "max_uses": 43
-        },
-        {
-          "id": "8c8b8967-3768-4d00-9424-5572c43ae59c",
-          "name": "Order Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Southern power nation item spring spend.",
-          "uses": 1,
-          "max_uses": 33
-        },
-        {
-          "id": "d246387c-14a1-4d4e-8e48-b223a3768f95",
-          "name": "High Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Mother result nice front.",
-          "uses": 2,
-          "max_uses": 43
-        },
-        {
-          "id": "8a52a1e9-8f62-48d5-b4f2-fb7faaa4aebb",
-          "name": "Structure Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Music get each house simply gun total.",
-          "uses": 4,
-          "max_uses": 39
-        },
-        {
-          "id": "c42a5854-5ec9-4f9c-82d5-c998f4da6418",
-          "name": "Tend Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Share environmental pretty include person.",
-          "uses": 9,
-          "max_uses": 45
-        },
-        {
-          "id": "0d469614-a64e-4b84-ae54-ea0bb20f3b7b",
-          "name": "Candidate Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Cut choose task particular four four and.",
-          "uses": 3,
-          "max_uses": 14
-        },
-        {
-          "id": "ebd59ded-c57c-46d8-8c32-d186191e5d6c",
-          "name": "Various Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Really somebody conference skin arm question.",
-          "uses": 4,
-          "max_uses": 22
-        },
-        {
-          "id": "47adce93-5f99-496d-8a98-b652a2705060",
-          "name": "Million Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Change large artist involve.",
-          "uses": 1,
-          "max_uses": 27
-        },
-        {
-          "id": "b26a6cc8-c0aa-4a90-be81-fd3e5e90ffae",
-          "name": "How Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Moment stay real personal.",
-          "uses": 9,
-          "max_uses": 21
-        },
-        {
-          "id": "5dea1196-b4f4-4823-933a-d72caeba8cec",
-          "name": "Couple Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Second always memory list successful entire.",
-          "uses": 6,
-          "max_uses": 13
-        }
-      ],
-      "spells": []
-    }
-  },
-  "4": {
-    "character": {
-      "name": "Phillip Cook",
-      "image": "https://placekitten.com/300/300",
-      "resources": {
-        "level": {
-          "value": 48,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 375,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
-        "HP": {
-          "value": 811,
-          "max": 8522,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
-        },
-        "AP": {
-          "value": 120,
-          "max": 4190,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
-        },
-        "SpellSlots": {
-          "value": 1,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 18,
-          "modifier": -3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
-        },
-        "DEX": {
-          "value": 66,
-          "modifier": 6,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
-        },
-        "FTH": {
-          "value": 10,
-          "modifier": 1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
-        },
-        "INT": {
-          "value": 86,
-          "modifier": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
-        },
-        "VIT": {
-          "value": 87,
-          "modifier": 6,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
-        },
-        "END": {
-          "value": 31,
-          "modifier": 5,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "id": "665afc33-efd5-42ce-83d8-da16280c897f",
-          "name": "Relate Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "frost",
-          "dice": "d100",
-          "scalingStat": "INT",
-          "twoHanded": true,
-          "flatBonus": 27
-        },
-        {
-          "id": "2fe4d07f-1ea2-44c9-9b9b-6ed85a25996d",
-          "name": "Could Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "fire",
-          "dice": "d100",
-          "scalingStat": "INT",
-          "twoHanded": null,
-          "flatBonus": 46
-        },
-        {
-          "id": "baf4b1bc-a039-4977-b056-829c88452841",
-          "name": "Cover Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "fire",
-          "dice": "d20",
-          "scalingStat": "INT",
-          "twoHanded": true,
-          "flatBonus": 14
-        },
-        {
-          "id": "4e9d5709-4e09-4013-b555-2d007c53bc96",
-          "name": "Especially Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "lightning",
-          "dice": "d12",
-          "scalingStat": "INT",
-          "twoHanded": false,
-          "flatBonus": 34
-        },
-        {
-          "id": "656eeb19-3746-42dd-9706-5c91b908929a",
-          "name": "Political Sword",
+          "name": "Available Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
           "slot": "left_hand",
           "type": "weapon",
           "damageType": "lightning",
-          "dice": "d20",
-          "scalingStat": null,
-          "twoHanded": true,
-          "flatBonus": 15
-        }
-      ],
-      "armors": [
-        {
-          "id": "fc589824-e57d-4f10-96e4-ed5e7e2965c3",
-          "name": "Art Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "dark",
-          "flatBonus": 29
-        },
-        {
-          "id": "2ccc6d80-cdce-499a-90f7-8c62ae6dba21",
-          "name": "Consumer Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "heavy",
-          "flatBonus": 8
-        }
-      ],
-      "catalysts": [
-        {
-          "id": "593b33c8-09b8-4242-940e-253fd868d23e",
-          "name": "Reveal Catalyst",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "pyromancy flame",
-          "flatBonus": 15
-        },
-        {
-          "id": "36cd211e-2ab9-4e67-964b-f4745e55925f",
-          "name": "Reach Catalyst",
-          "slot": "right_hand",
-          "type": "catalyst",
-          "catalystType": "talisman",
-          "flatBonus": 4
-        },
-        {
-          "id": "ebc2fdf0-631d-44e1-ba56-466d878d511f",
-          "name": "Improve Catalyst",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "pyromancy flame",
-          "flatBonus": 16
-        }
-      ],
-      "items": [
-        {
-          "id": "3d376c20-25be-4983-a42b-dd41ef98a054",
-          "name": "Admit Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Discussion people career per condition summer put.",
-          "uses": 3,
-          "max_uses": 33
-        },
-        {
-          "id": "3ea323ea-5431-4310-ab51-4220a5deebfa",
-          "name": "Democratic Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Participant president together card.",
-          "uses": 4,
-          "max_uses": 43
-        },
-        {
-          "id": "c15d7f58-527b-49d2-9e56-29961a6f06e5",
-          "name": "At Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Position heart public treatment industry.",
-          "uses": 4,
-          "max_uses": 27
-        },
-        {
-          "id": "b12b8413-507c-47ea-91e3-22f17272df18",
-          "name": "Professional Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Community eat protect technology.",
-          "uses": 10,
-          "max_uses": 32
-        },
-        {
-          "id": "6eaead99-ebc3-48fd-af19-9e758c05a537",
-          "name": "Though Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Join hit act player child.",
-          "uses": 6,
-          "max_uses": 29
-        },
-        {
-          "id": "ca1dbb4e-bbb5-472d-90fe-ac9d04fa09dd",
-          "name": "Attorney Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Sound conference civil trade.",
-          "uses": 6,
-          "max_uses": 14
-        },
-        {
-          "id": "807f6620-e6ce-4132-a167-99e9e764862e",
-          "name": "Choice Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Make your nature protect.",
-          "uses": 7,
-          "max_uses": 28
-        },
-        {
-          "id": "03aa3bdf-66a6-490f-9672-47c2f241fca3",
-          "name": "Travel Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Art affect hair color.",
-          "uses": 10,
-          "max_uses": 42
-        },
-        {
-          "id": "e4488216-dedd-4335-bf32-8e0959074880",
-          "name": "Head Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Section work issue build message over including spring.",
-          "uses": 6,
-          "max_uses": 26
-        },
-        {
-          "id": "0858390e-1707-492d-85d9-f0f8c6b3bac0",
-          "name": "Away Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Meeting discover baby cultural hope join friend.",
-          "uses": 1,
-          "max_uses": 18
-        },
-        {
-          "id": "c1bcc075-5ecd-42c1-adf9-c182c4c712b4",
-          "name": "Car Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Phone several property especially look office add.",
-          "uses": 10,
-          "max_uses": 43
-        },
-        {
-          "id": "b6d9d7f9-f989-416e-9e8a-f429bf2fa3c2",
-          "name": "Student Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Vote during people sing.",
-          "uses": 10,
-          "max_uses": 37
-        },
-        {
-          "id": "64a84541-bbbd-4e5c-b20e-764792bce711",
-          "name": "Lead Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Water ever fear hold report concern.",
-          "uses": 3,
-          "max_uses": 31
-        },
-        {
-          "id": "19d9843b-1647-4a6a-82c6-799314c62d80",
-          "name": "Case Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Authority today third serious.",
-          "uses": 2,
-          "max_uses": 40
-        },
-        {
-          "id": "23ebceb9-8457-48ad-b545-26566eea3159",
-          "name": "Remember Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Wrong would small billion father market.",
-          "uses": 6,
-          "max_uses": 40
-        },
-        {
-          "id": "412edb44-ab16-456f-8f4c-bf5aeb7195d4",
-          "name": "Chance Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Show tend sister table chair for budget.",
-          "uses": 6,
-          "max_uses": 41
-        },
-        {
-          "id": "ff238500-8087-452e-85c5-19ce017a2ef5",
-          "name": "Choose Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Me find reflect vote.",
-          "uses": 2,
-          "max_uses": 10
-        },
-        {
-          "id": "d9422d60-8328-4a8b-9a48-f37e1939df4a",
-          "name": "Decade Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Over but whether marriage what.",
-          "uses": 9,
-          "max_uses": 24
-        },
-        {
-          "id": "475c6be7-3313-472c-ab5e-1520b965917e",
-          "name": "Blood Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Beautiful take majority air power financial.",
-          "uses": 1,
-          "max_uses": 29
-        },
-        {
-          "id": "50f746a8-92a5-41cc-a855-74f052b1f75a",
-          "name": "Deep Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Road within artist consumer.",
-          "uses": 5,
-          "max_uses": 44
-        },
-        {
-          "id": "d3e1d603-0e75-40d6-86c7-a263d01996bb",
-          "name": "Ten Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Of may benefit million already half region.",
-          "uses": 10,
-          "max_uses": 34
-        },
-        {
-          "id": "71330bbf-9b5a-4787-bda7-32bba4160f15",
-          "name": "Involve Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Ago beyond country join admit join know.",
-          "uses": 10,
-          "max_uses": 34
-        },
-        {
-          "id": "dfa20301-9625-4511-959d-14bc8c44267e",
-          "name": "Six Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Resource light allow garden if.",
-          "uses": 5,
-          "max_uses": 25
-        },
-        {
-          "id": "fd3f35e5-4eec-418b-9e72-d3eb0d4150f5",
-          "name": "Product Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Involve effort recognize likely suddenly save end.",
-          "uses": 2,
-          "max_uses": 32
-        },
-        {
-          "id": "c920683c-858b-4fae-89ba-64d6a1fbc6b4",
-          "name": "Man Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Sing today road speech my.",
-          "uses": 3,
-          "max_uses": 26
-        }
-      ],
-      "spells": [
-        {
-          "id": "100ae44f-e7dd-45fe-b168-7dae5940b14c",
-          "name": "Good Spell",
-          "slot": "spell_4",
-          "type": "spell",
-          "spellType": "miracle",
-          "effectType": "buff",
-          "dice": "d6",
-          "scalingStat": null,
-          "duration": 1,
-          "requiresCatalyst": "talisman",
-          "uses": 3,
-          "max_uses": null
-        },
-        {
-          "id": "0a0813df-c53d-46a4-a9c4-8a1d4dac1387",
-          "name": "Own Spell",
-          "slot": "spell_2",
-          "type": "spell",
-          "spellType": "miracle",
-          "effectType": "debuff",
-          "dice": "d6",
-          "scalingStat": "FTH",
-          "duration": 3,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 1,
-          "max_uses": null
-        },
-        {
-          "id": "e96519f1-5eaa-400a-ab34-0c336459031a",
-          "name": "Show Spell",
-          "slot": "spell_2",
-          "type": "spell",
-          "spellType": "sorcery",
-          "effectType": "debuff",
-          "dice": "d12",
-          "scalingStat": "FTH",
-          "duration": 4,
-          "requiresCatalyst": "chime",
-          "uses": 5,
-          "max_uses": null
-        },
-        {
-          "id": "ac9019f5-4f2e-46ce-8b0c-6e5b7757ab08",
-          "name": "Year Spell",
-          "slot": "spell_3",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "damage",
-          "dice": "d20",
-          "scalingStat": "FTH",
-          "duration": 10,
-          "requiresCatalyst": "talisman",
-          "uses": 3,
-          "max_uses": null
-        },
-        {
-          "id": "bea7a7d3-4243-4e3b-9c7a-6935975cec64",
-          "name": "Go Spell",
-          "slot": "spell_3",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "debuff",
-          "dice": "d8",
-          "scalingStat": "STR",
-          "duration": 8,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 3,
-          "max_uses": null
-        }
-      ]
-    }
-  },
-  "5": {
-    "character": {
-      "name": "Barbara Hernandez",
-      "image": "https://picsum.photos/300/300",
-      "resources": {
-        "level": {
-          "value": 18,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 2633,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
-        "HP": {
-          "value": 992,
-          "max": 7208,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
-        },
-        "AP": {
-          "value": 341,
-          "max": 2444,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
-        },
-        "SpellSlots": {
-          "value": 3,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 56,
-          "modifier": -3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
-        },
-        "DEX": {
-          "value": 12,
-          "modifier": 7,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
-        },
-        "FTH": {
-          "value": 39,
-          "modifier": -1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
-        },
-        "INT": {
-          "value": 56,
-          "modifier": 0,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
-        },
-        "VIT": {
-          "value": 71,
-          "modifier": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
-        },
-        "END": {
-          "value": 4,
-          "modifier": 1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "id": "24af57af-d4b5-48fb-a7e6-9fd7e546c6e5",
-          "name": "Increase Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "dark",
-          "dice": "d6",
-          "scalingStat": "INT",
-          "twoHanded": null,
-          "flatBonus": 27
-        },
-        {
-          "id": "c891703b-67e4-435a-b445-5a41112a4fa7",
-          "name": "Financial Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "dark",
-          "dice": "d10",
+          "dice": "d100",
           "scalingStat": "INT",
           "twoHanded": true,
-          "flatBonus": 12
-        },
-        {
-          "id": "79ef6d70-8f52-49f0-860d-b7585fdd4a79",
-          "name": "Right Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "frost",
-          "dice": "d20",
-          "scalingStat": "FTH",
-          "twoHanded": true,
-          "flatBonus": 44
+          "flatBonus": 40
         }
       ],
       "armors": [],
       "catalysts": [],
       "items": [
         {
-          "id": "1e7bcc89-3ab7-457a-a0ca-9c66ab45c1ed",
-          "name": "We Flask",
+          "name": "Great Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
           "slot": "consumable",
           "type": "consumable",
           "consumableType": "misc",
-          "effect": "Check back film true deal though television.",
-          "uses": 6,
-          "max_uses": 11
-        },
-        {
-          "id": "e24c109e-e64e-4b2f-83f7-72d4669ba01e",
-          "name": "Effort Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Difference suggest up who news.",
-          "uses": 6,
-          "max_uses": 16
-        },
-        {
-          "id": "cf705a22-d5ea-46c1-9a0e-8057e8efd924",
-          "name": "Know Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Power official marriage war.",
-          "uses": 8,
-          "max_uses": 41
-        },
-        {
-          "id": "4ff26a64-9f60-4a7c-8b72-3b3a5fa383fc",
-          "name": "Benefit Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Wonder Mr feeling song nice amount.",
-          "uses": 10,
-          "max_uses": 28
-        },
-        {
-          "id": "af81ab10-82dc-498e-8432-aa67d2d8e081",
-          "name": "Whole Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Stuff maybe success green.",
-          "uses": 3,
-          "max_uses": 19
-        },
-        {
-          "id": "779e9307-67b5-433f-abed-b03adf00ea81",
-          "name": "Man Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Decade certainly business read.",
-          "uses": 1,
-          "max_uses": 34
-        },
-        {
-          "id": "0cc718c7-1f04-4420-b9bf-7f83e54de61c",
-          "name": "Action Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Share law interest citizen his get.",
-          "uses": 7,
-          "max_uses": 40
-        },
-        {
-          "id": "ebb2baf3-5520-4b61-870a-dbae296878be",
-          "name": "National Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Culture politics edge effect fund chair southern.",
-          "uses": 8,
-          "max_uses": 11
-        },
-        {
-          "id": "af92f3b7-93cb-4a58-9b68-b3e30d310d47",
-          "name": "Seat Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Something tough sound and.",
-          "uses": 1,
-          "max_uses": 17
-        },
-        {
-          "id": "751285dd-9cf8-4ba0-8315-6f97d9f9fa10",
-          "name": "Hotel Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Third rest song garden.",
-          "uses": 3,
-          "max_uses": 48
-        },
-        {
-          "id": "ca13788a-b669-4d42-ba5a-1ee783665459",
-          "name": "Role Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Common provide political.",
-          "uses": 9,
-          "max_uses": 18
-        },
-        {
-          "id": "cf0f5f7e-869f-446e-aacb-9d014710268a",
-          "name": "Wonder Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Air level it effort.",
-          "uses": 2,
-          "max_uses": 24
-        },
-        {
-          "id": "1f73f10d-d4bf-4b38-9cd2-51691327b83d",
-          "name": "Gun Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Make test happen station role he.",
-          "uses": 5,
-          "max_uses": 10
-        },
-        {
-          "id": "8981383d-f626-4601-b328-eb604ba51243",
-          "name": "By Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Administration field matter we see they eat.",
+          "effect": "Team between shoulder such six.",
           "uses": 4,
-          "max_uses": 10
-        },
-        {
-          "id": "34b1865f-6fa8-4582-bcdd-9806a0dee14a",
-          "name": "Eight Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Majority goal painting professional anything.",
-          "uses": 4,
-          "max_uses": 45
-        },
-        {
-          "id": "4302ae92-bc0b-4252-ad97-97d1606dfed7",
-          "name": "Better Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Window leg property today nature back improve.",
-          "uses": 3,
-          "max_uses": 50
-        },
-        {
-          "id": "93ba42e5-5ceb-4d68-af85-d08cfe83fe77",
-          "name": "Tend Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "What every child free risk newspaper.",
-          "uses": 8,
-          "max_uses": 23
-        },
-        {
-          "id": "f5349902-b571-4765-a149-51cd554a4b6d",
-          "name": "Energy Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "One item wear president father eight.",
-          "uses": 8,
-          "max_uses": 15
+          "max_uses": 32
         }
       ],
       "spells": [
         {
-          "id": "532406ae-99c4-4754-b104-fb0e9547d31d",
-          "name": "Especially Spell",
-          "slot": "spell_1",
+          "name": "Young Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
           "type": "spell",
-          "spellType": "miracle",
-          "effectType": "debuff",
-          "dice": "d100",
-          "scalingStat": "DEX",
+          "spellType": "sorcery",
+          "effectType": "damage",
+          "dice": "d12",
+          "scalingStat": "STR",
           "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 1,
-          "max_uses": 11
+          "requiresCatalyst": "talisman",
+          "uses": 4,
+          "max_uses": 18
         },
         {
-          "id": "cd6d8e58-2c1b-4962-835b-f6ce80b1915b",
-          "name": "Minute Spell",
-          "slot": "spell_4",
+          "name": "Senior Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_1",
           "type": "spell",
-          "spellType": "magic",
-          "effectType": "buff",
-          "dice": "d8",
+          "spellType": "cryomancy",
+          "effectType": "damage",
+          "dice": "d20",
           "scalingStat": "DEX",
           "duration": null,
           "requiresCatalyst": "staff",
-          "uses": 2,
+          "uses": 5,
           "max_uses": 14
+        },
+        {
+          "name": "Congress Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "buff",
+          "dice": "d100",
+          "scalingStat": "FTH",
+          "duration": null,
+          "requiresCatalyst": "talisman",
+          "uses": 2,
+          "max_uses": null
+        },
+        {
+          "name": "Candidate Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "utility",
+          "dice": "d100",
+          "scalingStat": "INT",
+          "duration": 7,
+          "requiresCatalyst": "staff",
+          "uses": 2,
+          "max_uses": 10
+        }
+      ]
+    }
+  },
+  "3": {
+    "character": {
+      "name": "John Moreno",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 1,
+      "souls": 8686,
+      "resources": {
+        "HP": {
+          "current": 749,
+          "maximum": 924
+        },
+        "AP": {
+          "current": 217,
+          "maximum": 337
+        },
+        "SpellSlots": {
+          "current": 3,
+          "maximum": 7
+        },
+        "Hollowing": {
+          "current": 5,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 89,
+          "modifier": -2
+        },
+        "DEX": {
+          "value": 91,
+          "modifier": -15
+        },
+        "FTH": {
+          "value": 41,
+          "modifier": -9
+        },
+        "INT": {
+          "value": 82,
+          "modifier": 14
+        },
+        "VIT": {
+          "value": 78,
+          "modifier": 6
+        },
+        "END": {
+          "value": 35,
+          "modifier": 5
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [
+        {
+          "name": "Now Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "left_hand",
+          "type": "weapon",
+          "damageType": "dark",
+          "dice": "d12",
+          "scalingStat": "STR",
+          "twoHanded": null,
+          "flatBonus": 17
+        },
+        {
+          "name": "Hundred Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "frost",
+          "dice": "d4",
+          "scalingStat": "INT",
+          "twoHanded": false,
+          "flatBonus": 9
+        }
+      ],
+      "armors": [
+        {
+          "name": "Economic Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
+          "slot": "armor",
+          "type": "armor",
+          "armorType": "light",
+          "flatBonus": 12
+        }
+      ],
+      "catalysts": [],
+      "items": [],
+      "spells": [
+        {
+          "name": "Adult Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "utility",
+          "dice": "d20",
+          "scalingStat": "STR",
+          "duration": 8,
+          "requiresCatalyst": "chime",
+          "uses": 3,
+          "max_uses": null
+        },
+        {
+          "name": "Thank Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "buff",
+          "dice": "d20",
+          "scalingStat": "DEX",
+          "duration": null,
+          "requiresCatalyst": "staff",
+          "uses": 3,
+          "max_uses": null
+        },
+        {
+          "name": "Key Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "healing",
+          "dice": "d8",
+          "scalingStat": "STR",
+          "duration": 10,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 3,
+          "max_uses": 15
+        },
+        {
+          "name": "Challenge Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_1",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "debuff",
+          "dice": "d4",
+          "scalingStat": "DEX",
+          "duration": null,
+          "requiresCatalyst": "chime",
+          "uses": 3,
+          "max_uses": 12
+        }
+      ]
+    }
+  },
+  "4": {
+    "character": {
+      "name": "Erica Gutierrez",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 75,
+      "souls": 1260,
+      "resources": {
+        "HP": {
+          "current": 901,
+          "maximum": 1015
+        },
+        "AP": {
+          "current": 490,
+          "maximum": 670
+        },
+        "SpellSlots": {
+          "current": 1,
+          "maximum": 5
+        },
+        "Hollowing": {
+          "current": 3,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 14,
+          "modifier": 18
+        },
+        "DEX": {
+          "value": 62,
+          "modifier": -13
+        },
+        "FTH": {
+          "value": 67,
+          "modifier": 5
+        },
+        "INT": {
+          "value": 35,
+          "modifier": 7
+        },
+        "VIT": {
+          "value": 59,
+          "modifier": 3
+        },
+        "END": {
+          "value": 79,
+          "modifier": 14
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [],
+      "armors": [
+        {
+          "name": "Provide Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
+          "slot": "armor",
+          "type": "armor",
+          "armorType": "magic",
+          "flatBonus": 4
+        }
+      ],
+      "catalysts": [
+        {
+          "name": "Wish Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "left_hand",
+          "type": "catalyst",
+          "catalystType": "staff",
+          "flatBonus": 8
+        },
+        {
+          "name": "Manage Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "right_hand",
+          "type": "catalyst",
+          "catalystType": "talisman",
+          "flatBonus": 17
+        }
+      ],
+      "items": [],
+      "spells": [
+        {
+          "name": "Increase Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "damage",
+          "dice": "d12",
+          "scalingStat": "INT",
+          "duration": null,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 1,
+          "max_uses": 8
+        },
+        {
+          "name": "Perform Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "debuff",
+          "dice": "d100",
+          "scalingStat": null,
+          "duration": null,
+          "requiresCatalyst": "staff",
+          "uses": 2,
+          "max_uses": 20
+        },
+        {
+          "name": "Receive Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "buff",
+          "dice": "d6",
+          "scalingStat": null,
+          "duration": null,
+          "requiresCatalyst": "staff",
+          "uses": 3,
+          "max_uses": null
+        },
+        {
+          "name": "Long Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_1",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "damage",
+          "dice": "d12",
+          "scalingStat": "FTH",
+          "duration": null,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 3,
+          "max_uses": 10
+        }
+      ]
+    }
+  },
+  "5": {
+    "character": {
+      "name": "Henry Maldonado",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 10,
+      "souls": 9162,
+      "resources": {
+        "HP": {
+          "current": 314,
+          "maximum": 365
+        },
+        "AP": {
+          "current": 395,
+          "maximum": 556
+        },
+        "SpellSlots": {
+          "current": 1,
+          "maximum": 1
+        },
+        "Hollowing": {
+          "current": 4,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 23,
+          "modifier": -17
+        },
+        "DEX": {
+          "value": 60,
+          "modifier": 1
+        },
+        "FTH": {
+          "value": 98,
+          "modifier": 1
+        },
+        "INT": {
+          "value": 42,
+          "modifier": 20
+        },
+        "VIT": {
+          "value": 25,
+          "modifier": -14
+        },
+        "END": {
+          "value": 61,
+          "modifier": 5
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [
+        {
+          "name": "After Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "frost",
+          "dice": "d100",
+          "scalingStat": "STR",
+          "twoHanded": true,
+          "flatBonus": 46
+        },
+        {
+          "name": "Media Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "left_hand",
+          "type": "weapon",
+          "damageType": "dark",
+          "dice": "d6",
+          "scalingStat": "DEX",
+          "twoHanded": null,
+          "flatBonus": 39
+        }
+      ],
+      "armors": [
+        {
+          "name": "Gun Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
+          "slot": "armor",
+          "type": "armor",
+          "armorType": "lightning",
+          "flatBonus": 24
+        }
+      ],
+      "catalysts": [],
+      "items": [],
+      "spells": [
+        {
+          "name": "Policy Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "healing",
+          "dice": "d100",
+          "scalingStat": "INT",
+          "duration": null,
+          "requiresCatalyst": "staff",
+          "uses": 3,
+          "max_uses": 15
+        },
+        {
+          "name": "Later Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "damage",
+          "dice": "d8",
+          "scalingStat": "STR",
+          "duration": 10,
+          "requiresCatalyst": "talisman",
+          "uses": 1,
+          "max_uses": 13
+        },
+        {
+          "name": "About Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "damage",
+          "dice": "d8",
+          "scalingStat": "STR",
+          "duration": null,
+          "requiresCatalyst": "talisman",
+          "uses": 4,
+          "max_uses": null
         }
       ]
     }
   },
   "6": {
     "character": {
-      "name": "Keith Taylor",
-      "image": "https://picsum.photos/300/300",
+      "name": "Bradley Price",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 44,
+      "souls": 7905,
       "resources": {
-        "level": {
-          "value": 1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 6207,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
         "HP": {
-          "value": 378,
-          "max": 7619,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
+          "current": 343,
+          "maximum": 422
         },
         "AP": {
-          "value": 144,
-          "max": 2443,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
+          "current": 316,
+          "maximum": 424
         },
         "SpellSlots": {
-          "value": 4,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
+          "current": 1,
+          "maximum": 1
+        },
+        "Hollowing": {
+          "current": 5,
+          "maximum": 10
         }
       },
       "stats": {
         "STR": {
-          "value": 94,
-          "modifier": 6,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
+          "value": 93,
+          "modifier": 10
         },
         "DEX": {
-          "value": 38,
-          "modifier": 10,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
+          "value": 58,
+          "modifier": 18
         },
         "FTH": {
-          "value": 7,
-          "modifier": 7,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
+          "value": 78,
+          "modifier": 3
         },
         "INT": {
-          "value": 13,
-          "modifier": 8,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
+          "value": 88,
+          "modifier": 10
         },
         "VIT": {
-          "value": 38,
-          "modifier": 5,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
+          "value": 85,
+          "modifier": 0
         },
         "END": {
-          "value": 22,
-          "modifier": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
+          "value": 35,
+          "modifier": 13
         }
       }
     },
     "inventory": {
-      "weapons": [
-        {
-          "id": "2235c141-9d95-4756-8a2f-bd3994ead888",
-          "name": "Air Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "piercing",
-          "dice": "d4",
-          "scalingStat": null,
-          "twoHanded": true,
-          "flatBonus": 22
-        },
-        {
-          "id": "96bea827-936a-454c-bc46-97412ec450a2",
-          "name": "The Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "slashing",
-          "dice": "d100",
-          "scalingStat": "FTH",
-          "twoHanded": null,
-          "flatBonus": 24
-        }
-      ],
+      "weapons": [],
       "armors": [
         {
-          "id": "2006ee90-84c7-4ae1-ace3-101538be67b9",
-          "name": "Relationship Armor",
+          "name": "Military Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
           "slot": "armor",
           "type": "armor",
-          "armorType": "lightning",
-          "flatBonus": 19
-        },
-        {
-          "id": "71e0cc7a-bd3e-4793-95a8-439fd2c44237",
-          "name": "Word Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "heavy",
-          "flatBonus": 13
-        },
-        {
-          "id": "1ddda368-6ab6-47c4-ae0e-aa31079cf108",
-          "name": "Left Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "fire",
-          "flatBonus": 25
+          "armorType": "dark",
+          "flatBonus": 17
         }
       ],
       "catalysts": [
         {
-          "id": "a61b207a-33b5-4c87-9911-e1092e215ec1",
-          "name": "Herself Catalyst",
-          "slot": "left_hand",
+          "name": "Believe Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "right_hand",
           "type": "catalyst",
-          "catalystType": "staff",
-          "flatBonus": 19
+          "catalystType": "talisman",
+          "flatBonus": 12
         }
       ],
       "items": [
         {
-          "id": "55c7bfbd-98e8-46d6-8d68-f4635e7d4ed2",
-          "name": "Ok Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Per last over.",
-          "uses": 3,
-          "max_uses": 38
-        },
-        {
-          "id": "206f484e-3490-4e2b-a74f-1d858ea0f073",
-          "name": "Require Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Your often director page pressure where senior.",
-          "uses": 10,
-          "max_uses": 25
-        },
-        {
-          "id": "ad213ac5-f39c-4dfa-bd8b-b8eeec6b5775",
-          "name": "Reality Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Population Mr go look economic relationship.",
-          "uses": 8,
-          "max_uses": 48
-        },
-        {
-          "id": "5b93b79d-322e-4479-91e0-cd16782b642a",
-          "name": "Five Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Name material down end star former answer source.",
-          "uses": 3,
-          "max_uses": 14
-        },
-        {
-          "id": "8d7ab43e-7564-4c5d-993b-86ab273d3e01",
-          "name": "Need Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Work grow north forward memory might school sometimes.",
-          "uses": 8,
-          "max_uses": 22
-        },
-        {
-          "id": "d262120b-3800-4711-8465-f84c677fa5ec",
-          "name": "Price Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Prevent nation eye hour majority page.",
-          "uses": 2,
-          "max_uses": 26
-        },
-        {
-          "id": "918a66fe-03b6-4b81-8015-ae2fbb180014",
-          "name": "Attention Flask",
+          "name": "Anything Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
           "slot": "consumable",
           "type": "consumable",
           "consumableType": "misc",
-          "effect": "Look visit participant travel evidence analysis.",
-          "uses": 8,
-          "max_uses": 22
-        },
-        {
-          "id": "65c77850-8fcb-4789-be43-44943949e07f",
-          "name": "Mouth Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Cultural how specific.",
-          "uses": 1,
-          "max_uses": 10
-        },
-        {
-          "id": "8ebff0aa-3cb2-4590-b6ad-e003783b3792",
-          "name": "Form Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Federal even contain energy strong job structure.",
-          "uses": 1,
-          "max_uses": 28
-        },
-        {
-          "id": "d3b73439-db21-4ec7-b3d5-7175a1b4412f",
-          "name": "Them Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Bag either already religious final.",
-          "uses": 5,
-          "max_uses": 14
-        },
-        {
-          "id": "2f4a42f8-ea09-4acd-8ff1-b1cab618e358",
-          "name": "Society Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Song spring fish traditional.",
-          "uses": 10,
-          "max_uses": 28
-        },
-        {
-          "id": "933443cb-473b-44ce-8654-219b7fdbe217",
-          "name": "Several Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Inside back require race push break computer.",
-          "uses": 4,
+          "effect": "Appear light reach.",
+          "uses": 6,
           "max_uses": 25
-        },
-        {
-          "id": "1410018b-b85a-4b5d-b754-704c7295bdfe",
-          "name": "Watch Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Make world cover heart.",
-          "uses": 8,
-          "max_uses": 33
-        },
-        {
-          "id": "f46e4359-f3aa-4837-8b6d-2b7975737112",
-          "name": "Message Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Pm have price face never find born.",
-          "uses": 5,
-          "max_uses": 31
-        },
-        {
-          "id": "06d72ffa-3d16-478d-a396-95ea86c96193",
-          "name": "Individual Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Foreign stop almost close drug hair owner everything.",
-          "uses": 9,
-          "max_uses": 35
         }
       ],
-      "spells": [
-        {
-          "id": "300bee6f-1f96-467b-b7c5-c0092cbfe6ba",
-          "name": "Most Spell",
-          "slot": "spell_2",
-          "type": "spell",
-          "spellType": "miracle",
-          "effectType": "buff",
-          "dice": "d20",
-          "scalingStat": "DEX",
-          "duration": null,
-          "requiresCatalyst": "talisman",
-          "uses": 4,
-          "max_uses": 17
-        }
-      ]
+      "spells": []
     }
   },
   "7": {
     "character": {
-      "name": "Amanda Smith",
-      "image": "https://placekitten.com/300/300",
+      "name": "Tanya Hernandez",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 63,
+      "souls": 110,
       "resources": {
-        "level": {
-          "value": 95,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 6344,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
         "HP": {
-          "value": 195,
-          "max": 4399,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
+          "current": 327,
+          "maximum": 447
         },
         "AP": {
-          "value": 158,
-          "max": 2793,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
+          "current": 461,
+          "maximum": 535
         },
         "SpellSlots": {
-          "value": 2,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
+          "current": 3,
+          "maximum": 7
+        },
+        "Hollowing": {
+          "current": 1,
+          "maximum": 10
         }
       },
       "stats": {
         "STR": {
-          "value": 19,
-          "modifier": 1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
+          "value": 26,
+          "modifier": 7
         },
         "DEX": {
-          "value": 79,
-          "modifier": -5,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
+          "value": 82,
+          "modifier": 4
         },
         "FTH": {
           "value": 64,
-          "modifier": 2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
+          "modifier": 5
         },
         "INT": {
-          "value": 84,
-          "modifier": 7,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
+          "value": 95,
+          "modifier": -8
         },
         "VIT": {
-          "value": 78,
-          "modifier": 8,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
+          "value": 66,
+          "modifier": 11
         },
         "END": {
-          "value": 66,
-          "modifier": 5,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
+          "value": 36,
+          "modifier": 5
         }
       }
     },
     "inventory": {
       "weapons": [
         {
-          "id": "38dc16ad-75bb-4724-afc9-b7ea680c38c8",
-          "name": "Offer Sword",
+          "name": "Whose Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "piercing",
+          "dice": "d20",
+          "scalingStat": "DEX",
+          "twoHanded": false,
+          "flatBonus": 37
+        },
+        {
+          "name": "Campaign Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
           "slot": "left_hand",
           "type": "weapon",
-          "damageType": "fire",
-          "dice": "d4",
-          "scalingStat": null,
+          "damageType": "dark",
+          "dice": "d20",
+          "scalingStat": "FTH",
           "twoHanded": true,
-          "flatBonus": 26
+          "flatBonus": 30
         }
       ],
       "armors": [
         {
-          "id": "097f2e1c-69fe-4f34-878d-b1e49a242a20",
-          "name": "Life Armor",
+          "name": "Fine Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
           "slot": "armor",
           "type": "armor",
-          "armorType": "light",
+          "armorType": "frost",
           "flatBonus": 22
         }
       ],
-      "catalysts": [
-        {
-          "id": "91899eff-e921-4136-8fb6-81996f94a811",
-          "name": "Else Catalyst",
-          "slot": "right_hand",
-          "type": "catalyst",
-          "catalystType": "pyromancy flame",
-          "flatBonus": 3
-        }
-      ],
+      "catalysts": [],
       "items": [
         {
-          "id": "80ae8e7c-f876-413a-bc86-f999e30648d6",
-          "name": "Best Flask",
+          "name": "Within Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
           "slot": "consumable",
           "type": "consumable",
-          "consumableType": "key",
-          "effect": "Produce product probably necessary.",
-          "uses": 8,
+          "consumableType": "estus",
+          "effect": "Simple it especially lead wide best.",
+          "uses": 3,
           "max_uses": 27
-        },
-        {
-          "id": "ce5f8b28-6ebb-4dab-aefa-89625e3bb4a1",
-          "name": "Many Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Purpose something all seem whose take democratic ever.",
-          "uses": 2,
-          "max_uses": 22
-        },
-        {
-          "id": "7ca93d8a-8ae8-4066-8fff-b493bc2d4304",
-          "name": "Part Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Require pressure above.",
-          "uses": 9,
-          "max_uses": 42
-        },
-        {
-          "id": "6431bcf0-d1ff-4df4-b0a0-80dd968a9a9d",
-          "name": "End Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Operation worry join election parent position.",
-          "uses": 10,
-          "max_uses": 43
-        },
-        {
-          "id": "3f33f980-7f46-4680-8bb9-12d1df696959",
-          "name": "Century Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Thought whatever learn.",
-          "uses": 7,
-          "max_uses": 44
-        },
-        {
-          "id": "85f36ff0-8478-472a-a58f-94de20f6785c",
-          "name": "Magazine Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Better kind if officer age art environment.",
-          "uses": 7,
-          "max_uses": 14
-        },
-        {
-          "id": "d9727d70-f418-4df7-b523-d43aa4e300c7",
-          "name": "Well Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Policy certain so box seek town responsibility.",
-          "uses": 10,
-          "max_uses": 19
-        },
-        {
-          "id": "b9dfa731-e97c-4e31-ba97-7f407fa6b9d0",
-          "name": "Base Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Weight scene almost little.",
-          "uses": 8,
-          "max_uses": 22
-        },
-        {
-          "id": "bc513bb3-d1f4-4b19-bae3-71fabcf37a83",
-          "name": "Top Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Avoid fine walk more gun.",
-          "uses": 3,
-          "max_uses": 17
-        },
-        {
-          "id": "42d4a5c8-4b61-48e6-a470-12585702ed75",
-          "name": "Add Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Performance culture nor eye son fly.",
-          "uses": 3,
-          "max_uses": 30
-        },
-        {
-          "id": "5b6e1d7e-56a2-443c-8759-c328ee2ccf01",
-          "name": "World Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Rate detail require exist.",
-          "uses": 3,
-          "max_uses": 30
-        },
-        {
-          "id": "7894877b-7640-4201-920a-28a71117ef1e",
-          "name": "Worker Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Section director themselves future tonight director bill.",
-          "uses": 10,
-          "max_uses": 40
-        },
-        {
-          "id": "e0ccdcd6-271c-4578-8d0e-f850e9a5dc80",
-          "name": "Building Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Entire billion quickly data tend month fire.",
-          "uses": 8,
-          "max_uses": 14
-        },
-        {
-          "id": "9bba4f9d-d36c-4d8d-a07e-0885b3fec217",
-          "name": "Usually Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "American case do write seem.",
-          "uses": 6,
-          "max_uses": 20
-        },
-        {
-          "id": "625a72d8-4821-43b5-a3c8-8f36bc271943",
-          "name": "Ever Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Chair choice majority shake drug.",
-          "uses": 4,
-          "max_uses": 49
-        },
-        {
-          "id": "afb557b1-f12c-406a-abce-4fe7b0b9eaad",
-          "name": "Usually Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Avoid doctor cup this tax actually life.",
-          "uses": 3,
-          "max_uses": 41
-        },
-        {
-          "id": "6146fc73-80c9-4be4-b056-2af3de50d433",
-          "name": "Bag Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Service its state where change.",
-          "uses": 10,
-          "max_uses": 36
-        },
-        {
-          "id": "d92da359-6b34-4bef-9935-01f2a2c8f24e",
-          "name": "Culture Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Three now structure home.",
-          "uses": 5,
-          "max_uses": 42
-        },
-        {
-          "id": "1fbc7efe-2c50-4fb1-bdb2-e358c66c74e8",
-          "name": "Wind Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Religious always training debate magazine notice.",
-          "uses": 7,
-          "max_uses": 20
         }
       ],
       "spells": [
         {
-          "id": "39c16aad-4be1-411a-9d84-51afdfe7ed89",
-          "name": "Toward Spell",
+          "name": "Time Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "damage",
+          "dice": "d8",
+          "scalingStat": "FTH",
+          "duration": null,
+          "requiresCatalyst": "talisman",
+          "uses": 2,
+          "max_uses": 18
+        },
+        {
+          "name": "Natural Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
+          "type": "spell",
+          "spellType": "cryomancy",
+          "effectType": "buff",
+          "dice": "d8",
+          "scalingStat": "INT",
+          "duration": null,
+          "requiresCatalyst": "chime",
+          "uses": 3,
+          "max_uses": 11
+        },
+        {
+          "name": "Occur Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
           "slot": "spell_3",
           "type": "spell",
           "spellType": "cryomancy",
           "effectType": "healing",
-          "dice": "d12",
-          "scalingStat": "STR",
-          "duration": 6,
-          "requiresCatalyst": "talisman",
-          "uses": 5,
-          "max_uses": null
-        },
-        {
-          "id": "b50fefe4-be49-4e08-bcb5-644321f400e4",
-          "name": "Fund Spell",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "healing",
           "dice": "d10",
-          "scalingStat": "FTH",
-          "duration": 8,
-          "requiresCatalyst": "chime",
-          "uses": 2,
-          "max_uses": 10
-        },
-        {
-          "id": "35db63ae-8b71-47e3-8b21-45215bfebf2e",
-          "name": "Century Spell",
-          "slot": "spell_2",
-          "type": "spell",
-          "spellType": "sorcery",
-          "effectType": "utility",
-          "dice": "d100",
           "scalingStat": "STR",
-          "duration": 10,
+          "duration": null,
           "requiresCatalyst": "talisman",
-          "uses": 4,
-          "max_uses": 13
+          "uses": 2,
+          "max_uses": 6
         }
       ]
     }
   },
   "8": {
     "character": {
-      "name": "Chelsea Kennedy",
-      "image": "https://dummyimage.com/300x300",
+      "name": "Alyssa Molina",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 73,
+      "souls": 6714,
       "resources": {
-        "level": {
-          "value": 11,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 3419,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
         "HP": {
-          "value": 427,
-          "max": 9833,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
+          "current": 938,
+          "maximum": 1013
         },
         "AP": {
-          "value": 76,
-          "max": 3581,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
+          "current": 368,
+          "maximum": 473
         },
         "SpellSlots": {
-          "value": 2,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
+          "current": 4,
+          "maximum": 7
+        },
+        "Hollowing": {
+          "current": 2,
+          "maximum": 10
         }
       },
       "stats": {
         "STR": {
-          "value": 92,
-          "modifier": -2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
+          "value": 95,
+          "modifier": 4
         },
         "DEX": {
-          "value": 30,
-          "modifier": 7,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
+          "value": 1,
+          "modifier": -7
         },
         "FTH": {
-          "value": 2,
-          "modifier": -2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
+          "value": 43,
+          "modifier": -8
         },
         "INT": {
-          "value": 99,
-          "modifier": -2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
+          "value": 91,
+          "modifier": 12
         },
         "VIT": {
-          "value": 55,
-          "modifier": 0,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
+          "value": 49,
+          "modifier": -4
         },
         "END": {
-          "value": 53,
-          "modifier": -5,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
+          "value": 51,
+          "modifier": -5
         }
       }
     },
     "inventory": {
       "weapons": [
         {
-          "id": "17506abf-4a1c-4c13-bba0-e8e91d534803",
-          "name": "Give Sword",
+          "name": "Local Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
           "slot": "right_hand",
           "type": "weapon",
-          "damageType": "bludgeoning",
-          "dice": "d100",
-          "scalingStat": null,
-          "twoHanded": true,
-          "flatBonus": 49
-        },
-        {
-          "id": "8a027249-5ed2-4875-ab7f-436a5d0ee419",
-          "name": "About Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "fire",
-          "dice": "d10",
-          "scalingStat": "INT",
-          "twoHanded": null,
-          "flatBonus": 48
-        },
-        {
-          "id": "4f7c8b6f-cd18-4468-ab33-a00276e83459",
-          "name": "Ago Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "piercing",
-          "dice": "d4",
-          "scalingStat": "INT",
-          "twoHanded": true,
-          "flatBonus": 15
-        },
-        {
-          "id": "a1387552-6c37-4ce1-9832-e94aa83ec4c4",
-          "name": "Could Sword",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "piercing",
+          "damageType": "slashing",
           "dice": "d20",
-          "scalingStat": "FTH",
+          "scalingStat": "INT",
           "twoHanded": true,
-          "flatBonus": 43
+          "flatBonus": 21
         }
       ],
       "armors": [
         {
-          "id": "eaf708b9-8f13-446a-90bb-a5f9a1e32890",
-          "name": "Even Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "light",
-          "flatBonus": 24
-        },
-        {
-          "id": "b69dfc63-4176-4986-976a-7cc0c2642383",
-          "name": "Factor Armor",
+          "name": "Down Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
           "slot": "armor",
           "type": "armor",
           "armorType": "lightning",
-          "flatBonus": 12
-        },
-        {
-          "id": "c616063b-f0b3-4360-bd41-0e994e546d54",
-          "name": "Small Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "magic",
-          "flatBonus": 6
-        }
-      ],
-      "catalysts": [
-        {
-          "id": "88e2a8da-76dc-4278-86bc-7e2f0609b9f1",
-          "name": "Free Catalyst",
-          "slot": "right_hand",
-          "type": "catalyst",
-          "catalystType": "chime",
           "flatBonus": 10
         }
       ],
-      "items": [
-        {
-          "id": "ebecd659-83c2-44b4-9b11-f978fb257b35",
-          "name": "Phone Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "And go data.",
-          "uses": 9,
-          "max_uses": 10
-        },
-        {
-          "id": "0d1075ec-9a79-49d3-bed2-9e23fb003610",
-          "name": "Include Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Audience discuss happen degree eight student choose nice.",
-          "uses": 3,
-          "max_uses": 46
-        },
-        {
-          "id": "09315ab7-0243-40bc-b962-3669b8a6ad98",
-          "name": "Day Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "See black yes may line.",
-          "uses": 9,
-          "max_uses": 38
-        },
-        {
-          "id": "2807b06b-d239-402d-9400-44f5b5bee44c",
-          "name": "Customer Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Red fall big risk pay officer method.",
-          "uses": 4,
-          "max_uses": 36
-        },
-        {
-          "id": "f9be6dd0-455f-40a7-a6f9-bcc004e8a819",
-          "name": "Election Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Choose ever media agreement stuff whether.",
-          "uses": 5,
-          "max_uses": 19
-        },
-        {
-          "id": "996c52c5-bb3d-480a-88f0-491110395d93",
-          "name": "Become Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Important once experience until tax rich.",
-          "uses": 8,
-          "max_uses": 46
-        },
-        {
-          "id": "ccc9e778-5e8d-403f-bea2-f43a168c90f4",
-          "name": "Order Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "This night simply customer wish factor.",
-          "uses": 2,
-          "max_uses": 43
-        },
-        {
-          "id": "be50bf3c-88e1-4321-8c40-96f12bfe8121",
-          "name": "Car Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Each color country second item back push.",
-          "uses": 8,
-          "max_uses": 16
-        },
-        {
-          "id": "35e43b46-3b0b-437f-83d8-6b651b6f6b06",
-          "name": "Test Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Modern care season.",
-          "uses": 4,
-          "max_uses": 14
-        },
-        {
-          "id": "cf6d68a4-ee1b-4422-93b8-3231077629d7",
-          "name": "Contain Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Us with get.",
-          "uses": 10,
-          "max_uses": 11
-        },
-        {
-          "id": "839f51cc-5bf2-4d98-926e-d6af6fb404e7",
-          "name": "To Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Then nation item them color table green.",
-          "uses": 8,
-          "max_uses": 43
-        },
-        {
-          "id": "a9e12886-beee-4e08-a375-9c3214e82ddb",
-          "name": "List Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Right lot meeting exactly.",
-          "uses": 6,
-          "max_uses": 43
-        },
-        {
-          "id": "7b3bb5ea-3014-468f-b24c-fd84cc252202",
-          "name": "Show Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Young career big church moment.",
-          "uses": 9,
-          "max_uses": 23
-        },
-        {
-          "id": "e196ff3a-0224-441d-b9f5-3f5b00c8a4e6",
-          "name": "Improve Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Three rather they.",
-          "uses": 3,
-          "max_uses": 15
-        },
-        {
-          "id": "1140e9b2-615e-45e4-9e4d-c81fdeca40bc",
-          "name": "Thus Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "View political trial feeling.",
-          "uses": 10,
-          "max_uses": 24
-        },
-        {
-          "id": "0b8d79a7-3f84-4236-a2d6-e3b7dc14ab4d",
-          "name": "Ten Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Within set I message another allow.",
-          "uses": 2,
-          "max_uses": 36
-        },
-        {
-          "id": "a85a7bca-b4b6-45df-a17a-f834f6c7a62c",
-          "name": "Individual Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Look character they.",
-          "uses": 3,
-          "max_uses": 16
-        },
-        {
-          "id": "4453d48c-a71d-449f-ab11-24897ac91368",
-          "name": "Want Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Dark hot bill thank never.",
-          "uses": 8,
-          "max_uses": 30
-        },
-        {
-          "id": "eb7ef9d4-db5b-4a09-a27e-c80bb4b13b60",
-          "name": "Contain Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Serve west where nation want.",
-          "uses": 6,
-          "max_uses": 20
-        },
-        {
-          "id": "221b6b89-48a6-4701-b947-b492fe2d68a9",
-          "name": "Information Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Modern actually finish prove probably.",
-          "uses": 4,
-          "max_uses": 38
-        },
-        {
-          "id": "75fca4ba-7365-485b-a724-e5aa5e7e9ae6",
-          "name": "Memory Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Win rate represent long huge owner cost.",
-          "uses": 7,
-          "max_uses": 36
-        },
-        {
-          "id": "622cd7e6-59e0-4342-8ae9-ac27cf8a7e82",
-          "name": "Treatment Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Charge home rise tend by.",
-          "uses": 6,
-          "max_uses": 48
-        },
-        {
-          "id": "9a54c698-afb7-43a8-9fa2-2cf2d2366359",
-          "name": "Stage Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "None fill popular popular lay laugh.",
-          "uses": 8,
-          "max_uses": 43
-        }
-      ],
-      "spells": [
-        {
-          "id": "0d2d01bd-4d23-4e4f-a073-debdee4dd0f5",
-          "name": "Certainly Spell",
-          "slot": "spell_2",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "damage",
-          "dice": "d6",
-          "scalingStat": null,
-          "duration": 3,
-          "requiresCatalyst": "chime",
-          "uses": 2,
-          "max_uses": 11
-        },
-        {
-          "id": "f261db2c-60c4-4a0e-b56c-054df3cd6edb",
-          "name": "Use Spell",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "healing",
-          "dice": "d20",
-          "scalingStat": "DEX",
-          "duration": 7,
-          "requiresCatalyst": "talisman",
-          "uses": 4,
-          "max_uses": 6
-        },
-        {
-          "id": "05d0367d-46fd-4ad7-8ac4-8fffe84caa51",
-          "name": "Idea Spell",
-          "slot": "spell_3",
-          "type": "spell",
-          "spellType": "miracle",
-          "effectType": "buff",
-          "dice": "d8",
-          "scalingStat": "DEX",
-          "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 3,
-          "max_uses": 14
-        },
-        {
-          "id": "98482c1c-33d4-4d2c-bcc5-38ba81413482",
-          "name": "Section Spell",
-          "slot": "spell_3",
-          "type": "spell",
-          "spellType": "sorcery",
-          "effectType": "utility",
-          "dice": "d6",
-          "scalingStat": "INT",
-          "duration": 7,
-          "requiresCatalyst": "chime",
-          "uses": 4,
-          "max_uses": 15
-        },
-        {
-          "id": "c10d8915-1fec-4744-a2cb-e9e3192757d5",
-          "name": "Everyone Spell",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "miracle",
-          "effectType": "buff",
-          "dice": "d12",
-          "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "staff",
-          "uses": 1,
-          "max_uses": null
-        }
-      ]
+      "catalysts": [],
+      "items": [],
+      "spells": []
     }
   },
   "9": {
     "character": {
-      "name": "Angie Mills DDS",
-      "image": "https://placekitten.com/300/300",
+      "name": "Rachel Barker",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 53,
+      "souls": 4842,
       "resources": {
-        "level": {
-          "value": 49,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 6515,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 5,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
         "HP": {
-          "value": 230,
-          "max": 3184,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
+          "current": 869,
+          "maximum": 930
         },
         "AP": {
-          "value": 416,
-          "max": 2670,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
+          "current": 420,
+          "maximum": 620
         },
         "SpellSlots": {
-          "value": 4,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
+          "current": 2,
+          "maximum": 4
+        },
+        "Hollowing": {
+          "current": 0,
+          "maximum": 10
         }
       },
       "stats": {
         "STR": {
-          "value": 79,
-          "modifier": -1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
+          "value": 0,
+          "modifier": 4
         },
         "DEX": {
-          "value": 49,
-          "modifier": 9,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
+          "value": 28,
+          "modifier": 7
         },
         "FTH": {
-          "value": 28,
-          "modifier": -1,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
+          "value": 54,
+          "modifier": 4
         },
         "INT": {
-          "value": 5,
-          "modifier": -3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
+          "value": 47,
+          "modifier": 16
         },
         "VIT": {
-          "value": 70,
-          "modifier": 8,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
+          "value": 83,
+          "modifier": -7
         },
         "END": {
-          "value": 42,
-          "modifier": 0,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
+          "value": 58,
+          "modifier": -18
         }
       }
     },
     "inventory": {
       "weapons": [
         {
-          "id": "8fceff9b-f185-46e8-82ba-1c3031f26ed6",
-          "name": "Start Sword",
+          "name": "Respond Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
           "slot": "right_hand",
           "type": "weapon",
-          "damageType": "lightning",
-          "dice": "d20",
+          "damageType": "dark",
+          "dice": "d4",
           "scalingStat": "DEX",
-          "twoHanded": false,
-          "flatBonus": 47
-        }
-      ],
-      "armors": [
-        {
-          "id": "60ce3713-3994-4fb4-9892-f36c31b82a9c",
-          "name": "Nice Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "magic",
-          "flatBonus": 4
-        },
-        {
-          "id": "1fedfd0e-3d97-4d46-833c-449c981fed3c",
-          "name": "Arrive Armor",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "lightning",
-          "flatBonus": 8
-        }
-      ],
-      "catalysts": [
-        {
-          "id": "aba2b3fa-1427-4916-a4de-8f245544c46a",
-          "name": "Difference Catalyst",
-          "slot": "right_hand",
-          "type": "catalyst",
-          "catalystType": "talisman",
-          "flatBonus": 11
-        },
-        {
-          "id": "f8e45580-ab4d-4a62-947f-638e68f10d47",
-          "name": "Measure Catalyst",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "talisman",
-          "flatBonus": 15
-        }
-      ],
-      "items": [
-        {
-          "id": "10aa2602-9fe9-460a-aebf-5bbec2624a9a",
-          "name": "Political Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Support try style out blood.",
-          "uses": 7,
-          "max_uses": 23
-        },
-        {
-          "id": "340042d3-70f5-4752-81ea-0c2da394cfca",
-          "name": "Practice Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Company many raise focus statement probably.",
-          "uses": 9,
-          "max_uses": 27
-        },
-        {
-          "id": "1978a38e-f0c6-4884-8964-8cea8dc8be9e",
-          "name": "Large Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Scene couple point skill through will.",
-          "uses": 2,
-          "max_uses": 24
-        },
-        {
-          "id": "9db16b31-8c38-4b4f-a336-62997c46e8a6",
-          "name": "Draw Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Work pressure western way local.",
-          "uses": 10,
-          "max_uses": 15
-        },
-        {
-          "id": "4d020560-e49f-4bdb-a122-b822eb3ff1ca",
-          "name": "From Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Point government machine role.",
-          "uses": 9,
-          "max_uses": 39
-        },
-        {
-          "id": "c7db63a2-bb58-4a2b-9e07-3009d3fe74a7",
-          "name": "Inside Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Democrat billion appear must sister.",
-          "uses": 1,
-          "max_uses": 27
-        },
-        {
-          "id": "ffbf2c57-e7d2-4c12-9374-5500bfdbf8cf",
-          "name": "American Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Operation because chance learn try generation position.",
-          "uses": 6,
-          "max_uses": 28
-        },
-        {
-          "id": "328d7b16-9d60-4b89-99f6-1151ef1610a6",
-          "name": "Defense Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Few group realize thing car.",
-          "uses": 6,
-          "max_uses": 15
-        },
-        {
-          "id": "c474dc72-d2c1-46b3-a3df-69b408fab72f",
-          "name": "Recently Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Ten level hair building indicate prove common evening.",
-          "uses": 1,
-          "max_uses": 19
-        },
-        {
-          "id": "e2010ed8-711f-471b-b2d2-7e9915b9c617",
-          "name": "Alone Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Focus bill begin six include land year.",
-          "uses": 10,
-          "max_uses": 26
-        },
-        {
-          "id": "57fc32b3-00af-4218-9676-86523efe35d9",
-          "name": "Develop Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Total eat entire crime summer professional hit.",
-          "uses": 10,
-          "max_uses": 30
-        },
-        {
-          "id": "079b4468-8322-4891-986f-1d716662f85f",
-          "name": "Other Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Represent through degree news.",
-          "uses": 10,
-          "max_uses": 23
-        },
-        {
-          "id": "6f78ced5-7e4a-4552-82ea-c3f9bd87d0f3",
-          "name": "Toward Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Age state soldier.",
-          "uses": 10,
-          "max_uses": 13
-        },
-        {
-          "id": "e5a2f4a1-4380-4666-9eb1-d239369d3a83",
-          "name": "Dark Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Paper open them when.",
-          "uses": 2,
-          "max_uses": 21
-        },
-        {
-          "id": "a91596fe-ea23-458a-838e-c53f44dbc774",
-          "name": "Agent Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Camera defense writer say foreign news sit family.",
-          "uses": 7,
-          "max_uses": 29
-        },
-        {
-          "id": "cf68c2db-d9df-4fd9-9be8-44784d8bade5",
-          "name": "Learn Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Make hit study team.",
-          "uses": 7,
-          "max_uses": 16
-        },
-        {
-          "id": "0966f923-7112-47ac-b997-7abd6dd2905e",
-          "name": "Read Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Take state explain.",
-          "uses": 1,
-          "max_uses": 13
-        },
-        {
-          "id": "2368afb7-7c87-4fc0-916a-5ba60cc2a73f",
-          "name": "Term Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Player create degree.",
-          "uses": 6,
-          "max_uses": 24
-        },
-        {
-          "id": "800dec56-ebe1-401a-bb45-98a5fce547ef",
-          "name": "Big Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Need former state defense.",
-          "uses": 2,
-          "max_uses": 37
-        }
-      ],
-      "spells": [
-        {
-          "id": "ceaf739d-d048-4b37-9b14-cb897b7340e9",
-          "name": "Letter Spell",
-          "slot": "spell_4",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "utility",
-          "dice": "d12",
-          "scalingStat": null,
-          "duration": 9,
-          "requiresCatalyst": "chime",
-          "uses": 1,
-          "max_uses": null
-        }
-      ]
-    }
-  },
-  "10": {
-    "character": {
-      "name": "Robert Scott",
-      "image": "https://picsum.photos/300/300",
-      "resources": {
-        "level": {
-          "value": 84,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/level.png",
-          "label": "Level"
-        },
-        "souls": {
-          "value": 4994,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/soul.png",
-          "label": "Souls"
-        },
-        "hollowing": {
-          "value": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/humanity.png",
-          "label": "Hollowing"
-        },
-        "HP": {
-          "value": 821,
-          "max": 4266,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/hp.png",
-          "label": "Health"
-        },
-        "AP": {
-          "value": 283,
-          "max": 717,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/stamina.png",
-          "label": "Action Points"
-        },
-        "SpellSlots": {
-          "value": 2,
-          "max": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/fp.png",
-          "label": "Spell Slots"
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 50,
-          "modifier": 4,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/strength.png",
-          "label": "Strength"
-        },
-        "DEX": {
-          "value": 42,
-          "modifier": 3,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/dexterity.png",
-          "label": "Dexterity"
-        },
-        "FTH": {
-          "value": 56,
-          "modifier": -2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/faith.png",
-          "label": "Faith"
-        },
-        "INT": {
-          "value": 28,
-          "modifier": 9,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/intelligence.png",
-          "label": "Intelligence"
-        },
-        "VIT": {
-          "value": 12,
-          "modifier": 8,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/vigor.png",
-          "label": "Vitality"
-        },
-        "END": {
-          "value": 46,
-          "modifier": -2,
-          "icon": "https://darksouls3.wdfiles.com/local--files/image-sets:menu-icons/endurance.png",
-          "label": "Endurance"
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "id": "5b1ad71d-c9b5-4656-baba-6e8a2dda4123",
-          "name": "Whose Sword",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "fire",
-          "dice": "d10",
-          "scalingStat": "STR",
-          "twoHanded": true,
+          "twoHanded": null,
           "flatBonus": 11
         }
       ],
       "armors": [],
       "catalysts": [
         {
-          "id": "6bce1e94-0378-4d1e-8980-e601cfbfec49",
-          "name": "Keep Catalyst",
-          "slot": "right_hand",
+          "name": "See Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "left_hand",
           "type": "catalyst",
           "catalystType": "chime",
-          "flatBonus": 18
+          "flatBonus": 3
+        }
+      ],
+      "items": [],
+      "spells": []
+    }
+  },
+  "10": {
+    "character": {
+      "name": "Joyce Newton",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 16,
+      "souls": 5575,
+      "resources": {
+        "HP": {
+          "current": 495,
+          "maximum": 545
         },
+        "AP": {
+          "current": 282,
+          "maximum": 382
+        },
+        "SpellSlots": {
+          "current": 3,
+          "maximum": 3
+        },
+        "Hollowing": {
+          "current": 5,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 99,
+          "modifier": 5
+        },
+        "DEX": {
+          "value": 3,
+          "modifier": -2
+        },
+        "FTH": {
+          "value": 10,
+          "modifier": -5
+        },
+        "INT": {
+          "value": 91,
+          "modifier": 19
+        },
+        "VIT": {
+          "value": 83,
+          "modifier": 2
+        },
+        "END": {
+          "value": 21,
+          "modifier": -13
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [],
+      "armors": [
         {
-          "id": "7f78807f-2f8f-49af-99bc-9e1c6bfa962c",
-          "name": "Surface Catalyst",
-          "slot": "left_hand",
+          "name": "Coach Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
+          "slot": "armor",
+          "type": "armor",
+          "armorType": "frost",
+          "flatBonus": 27
+        }
+      ],
+      "catalysts": [
+        {
+          "name": "Set Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "right_hand",
           "type": "catalyst",
-          "catalystType": "pyromancy flame",
+          "catalystType": "staff",
           "flatBonus": 2
-        },
-        {
-          "id": "64541eb3-249f-47d2-9e34-970738b39663",
-          "name": "Wish Catalyst",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "talisman",
-          "flatBonus": 16
         }
       ],
-      "items": [
-        {
-          "id": "80b14e32-a498-4770-9e75-9f61503830fc",
-          "name": "Including Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Smile worry through fill.",
-          "uses": 2,
-          "max_uses": 48
-        },
-        {
-          "id": "fe3ff480-ed56-4113-9a2b-547db25f8b95",
-          "name": "Sense Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Account during recent once close.",
-          "uses": 3,
-          "max_uses": 32
-        },
-        {
-          "id": "714ddd4d-b477-4250-864b-7b2d2054893d",
-          "name": "Line Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Herself side accept nation.",
-          "uses": 3,
-          "max_uses": 19
-        },
-        {
-          "id": "a768f6ef-5a4a-4b18-b9a2-f31bcf77cbed",
-          "name": "Our Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Hair meeting off some successful.",
-          "uses": 9,
-          "max_uses": 31
-        },
-        {
-          "id": "7d59381c-b625-4c87-8870-5d5ac9e24a1d",
-          "name": "Still Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Close none task.",
-          "uses": 5,
-          "max_uses": 44
-        },
-        {
-          "id": "209e91c0-5b10-41aa-aca9-78f5d38f2d1c",
-          "name": "Radio Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Their woman kitchen difference population choice stuff medical.",
-          "uses": 10,
-          "max_uses": 32
-        },
-        {
-          "id": "6df13f8b-02c4-471c-b53c-cebe97eaf12f",
-          "name": "Almost Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Bring might certain able finally nothing line.",
-          "uses": 5,
-          "max_uses": 14
-        },
-        {
-          "id": "f0d9112e-b974-401a-a6e4-1fcaea61b190",
-          "name": "Human Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Too clear yard season man door everybody enter.",
-          "uses": 9,
-          "max_uses": 37
-        },
-        {
-          "id": "bd03329a-001c-4e12-8ea7-79bbfeca0773",
-          "name": "Site Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Ahead wife seat guy fire time watch.",
-          "uses": 6,
-          "max_uses": 44
-        },
-        {
-          "id": "0521e0f9-f110-4bd4-9818-51eee2d49479",
-          "name": "Protect Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Forward recently least and us that operation.",
-          "uses": 8,
-          "max_uses": 49
-        },
-        {
-          "id": "f23a0f06-c00d-4550-955e-19cefa64b439",
-          "name": "Or Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Office decade range stock media wait.",
-          "uses": 7,
-          "max_uses": 37
-        },
-        {
-          "id": "ce1d2325-1e1a-4642-af69-c91ed0890d64",
-          "name": "Provide Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Memory heart feel same response out.",
-          "uses": 9,
-          "max_uses": 37
-        },
-        {
-          "id": "7a97559f-c053-4419-adf2-22d6ae2b57ba",
-          "name": "Say Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Range population red bit wish quality special have.",
-          "uses": 9,
-          "max_uses": 47
-        },
-        {
-          "id": "809cbcd6-8e08-423d-8582-fbd39676015e",
-          "name": "Line Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Response pay result believe whole.",
-          "uses": 9,
-          "max_uses": 27
-        },
-        {
-          "id": "52978885-f651-46cb-bf5b-c7e6f17cef4e",
-          "name": "Former Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Speech staff various ball.",
-          "uses": 3,
-          "max_uses": 16
-        },
-        {
-          "id": "77f9ea86-7aac-4a31-b774-dfb4d98703ca",
-          "name": "They Flask",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Attorney oil member decision eight tree ability.",
-          "uses": 2,
-          "max_uses": 23
-        }
-      ],
+      "items": [],
       "spells": [
         {
-          "id": "6fb1b1b4-7dd6-4a08-be6a-2857b0727067",
-          "name": "Exist Spell",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "buff",
-          "dice": "d8",
-          "scalingStat": "INT",
-          "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 5,
-          "max_uses": 9
-        },
-        {
-          "id": "1205c6a0-c7fb-48fb-b392-a7d428654c84",
-          "name": "Direction Spell",
+          "name": "Two Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
           "slot": "spell_4",
           "type": "spell",
-          "spellType": "miracle",
-          "effectType": "debuff",
-          "dice": "d20",
-          "scalingStat": "STR",
+          "spellType": "cryomancy",
+          "effectType": "damage",
+          "dice": "d100",
+          "scalingStat": "DEX",
           "duration": null,
-          "requiresCatalyst": "chime",
-          "uses": 2,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 3,
           "max_uses": 6
         },
         {
-          "id": "72a967fe-8d95-4e44-8352-01d3f2f647e5",
-          "name": "Item Spell",
-          "slot": "spell_3",
+          "name": "Talk Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
           "type": "spell",
           "spellType": "miracle",
-          "effectType": "healing",
-          "dice": "d8",
+          "effectType": "buff",
+          "dice": "d12",
           "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "chime",
-          "uses": 5,
+          "duration": 3,
+          "requiresCatalyst": "staff",
+          "uses": 3,
           "max_uses": null
+        },
+        {
+          "name": "Property Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "damage",
+          "dice": "d100",
+          "scalingStat": null,
+          "duration": null,
+          "requiresCatalyst": "talisman",
+          "uses": 4,
+          "max_uses": 10
         }
       ]
     }

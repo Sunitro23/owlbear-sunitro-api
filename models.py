@@ -1,6 +1,7 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, conint, validator, root_validator
 from typing import List, Dict, Any, Optional, Union, Literal
 from enum import Enum
+from datetime import datetime
 
 
 class EquipmentSlots(str, Enum):
@@ -87,42 +88,40 @@ class DiceRoll(str, Enum):
 ScalingStat = Literal['STR', 'DEX', 'FTH', 'INT']
 
 
+class StatName(str, Enum):
+    STRENGTH = 'STR'
+    DEXTERITY = 'DEX'
+    FAITH = 'FTH'
+    INTELLIGENCE = 'INT'
+    VITALITY = 'VIT'
+    ENDURANCE = 'END'
+
+
 class StatInfo(BaseModel):
-    value: int
-    modifier: int
-    icon: Optional[str] = None
-    label: Optional[str] = None
+    value: conint(ge=0, le=99) = Field(description="Stat value between 0-99")
+    modifier: int = Field(ge=-20, le=20, description="Modifier range")
 
 
-class SoulInfo(BaseModel):
-    value: int
-    icon: Optional[str] = None
-    label: Optional[str] = None
+class ResourceInfo(BaseModel):
+    current: conint(ge=0)
+    maximum: conint(ge=0)
 
 
 class MainCharacterInfo(BaseModel):
     name: str
-    level: SoulInfo
-    hollowing: SoulInfo
-    souls: SoulInfo
-
-
-class ResourceInfo(BaseModel):
-    value: int
-    max: int
-    icon: Optional[str] = None
-    label: Optional[str] = None
+    level: conint(ge=0, le=100)
+    souls: conint(ge=0)
 
 
 class Character(BaseModel):
     main: MainCharacterInfo
-    stats: Dict[str, StatInfo]
+    stats: Dict[StatName, StatInfo]
     resources: Dict[str, ResourceInfo]
 
 
 class BaseItem(BaseModel):
-    id: str
     name: str
+    image: str
     slot: EquipmentSlots
 
 
@@ -176,10 +175,25 @@ class Inventory(BaseModel):
     items: List[ConsumableItem]
     spells: List[SpellItem]
 
+    @root_validator(pre=True)
+    def validate_unique_slots(cls, values):
+        slots = set()
+        for category in ['weapons', 'armors', 'catalysts', 'items', 'spells']:
+            items = values.get(category, [])
+            for item in items:
+                slot = item.get('slot')
+                if slot and slot != 'bag':  # Only validate equipped slots (not 'bag')
+                    if slot in slots:
+                        raise ValueError(f"Duplicate equipment slot '{slot}' found. Each slot can only have one item equipped.")
+                    slots.add(slot)
+        return values
+
 
 class CharacterData(BaseModel):
     character: Dict[str, Any]
     inventory: Inventory
+    created_at: datetime = Field(default_factory=datetime.now)
+    updated_at: datetime = Field(default_factory=datetime.now)
 
 
 class CharacterCreate(BaseModel):
@@ -199,6 +213,12 @@ class CharacterResponse(BaseModel):
     id: int
     character: Dict[str, Any]
     inventory: Inventory
+
+
+class EquipRequest(BaseModel):
+    """Model for equipping an item on a specific slot"""
+    item_name: str
+    slot: EquipmentSlots
 
 
 class MessageResponse(BaseModel):

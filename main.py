@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException, status, Request
 from typing import List, Dict
 from models import (
-    CharacterData, CharacterCreate, CharacterUpdate, 
-    CharacterResponse, MessageResponse
+    CharacterData, CharacterCreate, CharacterUpdate,
+    CharacterResponse, MessageResponse, EquipRequest
 )
 import database as db
 
@@ -126,6 +126,40 @@ def delete_character(character_id: int):
         )
     
     return {"message": f"Personnage avec l'ID {character_id} supprimé avec succès"}
+
+
+@app.patch("/characters/{character_id}/equip", response_model=CharacterResponse)
+def equip_item(character_id: int, equip_request: EquipRequest):
+    """
+    Équipe un item sur un emplacement spécifique pour un personnage.
+
+    - **character_id**: L'ID du personnage
+    - **equip_request**: Les détails de l'équipement (item_name et slot)
+
+    Retourne une erreur 404 si le personnage n'existe pas.
+    Retourne une erreur 400 si l'item n'existe pas ou si le slot cause un conflit.
+    """
+    equipped_character = db.equip_item(character_id, equip_request.item_name, equip_request.slot)
+
+    if not equipped_character:
+        # Check if character exists
+        character_exists = db.get_character(character_id)
+        if not character_exists:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Personnage avec l'ID {character_id} non trouvé"
+            )
+        else:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Impossible d'équiper l'item {equip_request.item_name} sur le slot {equip_request.slot}"
+            )
+
+    return CharacterResponse(
+        id=character_id,
+        character=equipped_character.character,
+        inventory=equipped_character.inventory
+    )
 
 # Health check endpoint
 @app.get("/health", response_model=MessageResponse)

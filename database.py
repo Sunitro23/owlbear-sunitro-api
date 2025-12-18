@@ -104,3 +104,50 @@ def get_character_ids() -> List[int]:
     """Get list of all character IDs"""
     characters = load_characters()
     return [int(id_) for id_ in characters.keys() if id_.isdigit()]
+
+
+def equip_item(character_id: int, item_name: str, slot: str) -> Optional[CharacterData]:
+    """Equip an item on a specific slot for a character"""
+    characters = load_characters()
+
+    if str(character_id) not in characters:
+        return None
+
+    character_data = characters[str(character_id)]
+
+    # First, unequip any item currently in the target slot
+    for category in ['weapons', 'armors', 'catalysts', 'items', 'spells']:
+        if category in character_data.get('inventory', {}):
+            for item in character_data['inventory'][category]:
+                if item.get('slot') == slot:
+                    item['slot'] = 'bag'
+                    break
+
+    # Find the item in the inventory and update its slot
+    item_found = False
+    for category in ['weapons', 'armors', 'catalysts', 'items', 'spells']:
+        if category in character_data.get('inventory', {}):
+            for item in character_data['inventory'][category]:
+                if item.get('name') == item_name:
+                    item['slot'] = slot
+                    item_found = True
+                    break
+        if item_found:
+            break
+
+    if not item_found:
+        return None
+
+    # Validate the inventory (check for duplicate slots)
+    # We need to temporarily create an Inventory object to validate
+    try:
+        from models import Inventory
+        inventory_data = character_data.get('inventory', {})
+        Inventory(**inventory_data)  # This will raise an error if validation fails
+    except Exception as e:
+        return None  # Invalid inventory state
+
+    characters[str(character_id)] = character_data
+    save_characters(characters)
+
+    return CharacterData(**character_data)
