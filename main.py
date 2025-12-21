@@ -19,28 +19,28 @@ def read_root():
     return {"message": "Bienvenue dans l'API Dark Souls ! Utilisez /docs pour voir la documentation complète."}
 
 
-@app.get("/characters", response_model=Dict[int, CharacterData])
+@app.get("/characters", response_model=Dict[str, CharacterData])
 def get_all_characters():
     """
     Récupère tous les personnages disponibles.
-    
+
     Retourne un dictionnaire avec les IDs comme clés et les données des personnages comme valeurs.
     """
     return db.get_all_characters()
 
 
-@app.get("/characters/ids", response_model=List[int])
+@app.get("/characters/ids", response_model=List[str])
 def get_character_ids():
     """
     Liste tous les IDs de personnages disponibles.
-    
+
     Utile pour connaître les personnages existants avant de les récupérer individuellement.
     """
     return db.get_character_ids()
 
 
 @app.get("/characters/{character_id}", response_model=CharacterResponse)
-def get_character(character_id: int):
+def get_character(character_id: str):
     """
     Récupère les informations complètes d'un personnage par son ID.
     
@@ -83,7 +83,7 @@ def create_character(character: CharacterCreate):
 
 
 @app.put("/characters/{character_id}", response_model=CharacterResponse)
-def update_character(character_id: int, character_update: CharacterUpdate):
+def update_character(character_id: str, character_update: CharacterUpdate):
     """
     Met à jour un personnage existant.
     
@@ -109,7 +109,7 @@ def update_character(character_id: int, character_update: CharacterUpdate):
 
 
 @app.delete("/characters/{character_id}", response_model=MessageResponse)
-def delete_character(character_id: int):
+def delete_character(character_id: str):
     """
     Supprime un personnage.
     
@@ -129,7 +129,7 @@ def delete_character(character_id: int):
 
 
 @app.patch("/characters/{character_id}/equip", response_model=CharacterResponse)
-def equip_item(character_id: int, equip_request: EquipRequest):
+def equip_item(character_id: str, equip_request: EquipRequest):
     """
     Équipe un item sur un emplacement spécifique pour un personnage.
 

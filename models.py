@@ -210,7 +210,7 @@ class CharacterUpdate(BaseModel):
 
 class CharacterResponse(BaseModel):
     """Response model that includes the character ID"""
-    id: int
+    id: str
     character: Dict[str, Any]
     inventory: Inventory
 

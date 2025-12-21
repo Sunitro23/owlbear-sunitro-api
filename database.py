@@ -1,5 +1,6 @@
 import json
 import os
+import uuid
 from typing import Dict, Optional, List
 from models import CharacterData, CharacterCreate, CharacterUpdate
 
@@ -24,96 +25,90 @@ def save_characters(characters: Dict[str, dict]) -> None:
         json.dump(characters, f, indent=2, ensure_ascii=False)
 
 
-def get_character(character_id: int) -> Optional[CharacterData]:
+def get_character(character_id: str) -> Optional[CharacterData]:
     """Get a character by ID"""
     characters = load_characters()
-    character_data = characters.get(str(character_id))
-    
+    character_data = characters.get(character_id)
+
     if character_data:
         return CharacterData(**character_data)
     return None
 
 
-def get_all_characters() -> Dict[int, CharacterData]:
+def get_all_characters() -> Dict[str, CharacterData]:
     """Get all characters"""
     characters = load_characters()
     result = {}
-    
+
     for char_id, char_data in characters.items():
-        try:
-            result[int(char_id)] = CharacterData(**char_data)
-        except ValueError:
-            continue  # Skip invalid IDs
-    
+        result[char_id] = CharacterData(**char_data)
+
     return result
 
 
-def create_character(character_data: CharacterCreate) -> int:
+def create_character(character_data: CharacterCreate) -> str:
     """Create a new character and return the assigned ID"""
     characters = load_characters()
-    
-    # Find the next available ID
-    if characters:
-        next_id = max(int(id_) for id_ in characters.keys()) + 1
-    else:
-        next_id = 1
-    
+
+    # Generate a new UUID
+    new_id = str(uuid.uuid4())
+
     # Convert the Pydantic model to dict
-    characters[str(next_id)] = character_data.model_dump()
-    
+    characters[new_id] = character_data.model_dump()
+
     save_characters(characters)
-    return next_id
+    return new_id
 
 
-def update_character(character_id: int, character_update: CharacterUpdate) -> Optional[CharacterData]:
+def update_character(character_id: str, character_update: CharacterUpdate) -> Optional[CharacterData]:
     """Update an existing character"""
     characters = load_characters()
-    
-    if str(character_id) not in characters:
+
+    if character_id not in characters:
         return None
-    
+
     # Get current character data
-    current_data = characters[str(character_id)]
-    
+    current_data = characters[character_id]
+
     # Update only the provided fields
     update_dict = character_update.model_dump(exclude_unset=True)
-    
+
     for key, value in update_dict.items():
         if value is not None:
             current_data[key] = value
-    
-    characters[str(character_id)] = current_data
+
+    characters[character_id] = current_data
     save_characters(characters)
-    
+
     return CharacterData(**current_data)
 
 
-def delete_character(character_id: int) -> bool:
+def delete_character(character_id: str) -> bool:
     """Delete a character by ID. Returns True if successful, False if not found"""
     characters = load_characters()
-    
-    if str(character_id) in characters:
-        del characters[str(character_id)]
+
+    if character_id in characters:
+        del characters[character_id]
         save_characters(characters)
         return True
-    
+
     return False
 
 
-def get_character_ids() -> List[int]:
+def get_character_ids() -> List[str]:
     """Get list of all character IDs"""
     characters = load_characters()
-    return [int(id_) for id_ in characters.keys() if id_.isdigit()]
+    return list(characters.keys())
 
 
-def equip_item(character_id: int, item_name: str, slot: str) -> Optional[CharacterData]:
+def equip_item(character_id: str, item_name: str, slot: str) -> Optional[CharacterData]:
     """Equip an item on a specific slot for a character"""
     characters = load_characters()
 
-    if str(character_id) not in characters:
+    if character_id not in characters:
         return None
 
-    character_data = characters[str(character_id)]
+    character_data = characters[character_id]
 
     # First, unequip any item currently in the target slot
     for category in ['weapons', 'armors', 'catalysts', 'items', 'spells']:
@@ -147,7 +142,7 @@ def equip_item(character_id: int, item_name: str, slot: str) -> Optional[Charact
     except Exception as e:
         return None  # Invalid inventory state
 
-    characters[str(character_id)] = character_data
+    characters[character_id] = character_data
     save_characters(characters)
 
     return CharacterData(**character_data)

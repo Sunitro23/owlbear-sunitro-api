@@ -1,6 +1,7 @@
 from faker import Faker
 import json
 import random
+import uuid
 from models import (
     CharacterData, Character, MainCharacterInfo, StatInfo,
     WeaponItem, ArmorItem, SpellItem, CatalystItem, ConsumableItem,
@@ -209,7 +210,7 @@ def fake_character_data():
 database = {}
 for i in range(1, 11):
     char_data = fake_character_data()
-    database[str(i)] = char_data
+    database[str(uuid.uuid4())] = char_data
 
 # Save to JSON
 with open('characters.json', 'w') as f:
