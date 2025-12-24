@@ -1,967 +1,130 @@
 {
   "c712eff1-a1b4-449d-a3a0-34c07d369832": {
     "character": {
-      "name": "Justin Cross",
-      "image": "",
-      "level": 12,
-      "souls": 5015,
+      "name": "John Jones",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 41,
+      "souls": 2237,
       "resources": {
         "HP": {
-          "current": 876,
-          "maximum": 950
+          "current": 466,
+          "maximum": 621
         },
         "AP": {
-          "current": 195,
-          "maximum": 305
+          "current": 219,
+          "maximum": 375
         },
         "SpellSlots": {
           "current": 4,
           "maximum": 5
         },
         "Hollowing": {
-          "current": 2,
+          "current": 3,
           "maximum": 10
         }
       },
       "stats": {
         "STR": {
-          "value": 7,
-          "modifier": 7
+          "value": 24,
+          "modifier": 11
         },
         "DEX": {
-          "value": 46,
-          "modifier": -5
-        },
-        "FTH": {
-          "value": 93,
-          "modifier": -5
-        },
-        "INT": {
-          "value": 21,
+          "value": 40,
           "modifier": 14
         },
+        "FTH": {
+          "value": 40,
+          "modifier": -11
+        },
+        "INT": {
+          "value": 82,
+          "modifier": -9
+        },
         "VIT": {
-          "value": 9,
+          "value": 95,
           "modifier": 14
         },
         "END": {
-          "value": 53,
-          "modifier": 5
+          "value": 56,
+          "modifier": -18
         }
       }
     },
     "inventory": {
       "weapons": [
         {
-          "name": "Kid Sword",
+          "name": "It Sword",
           "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "right_hand",
+          "slot": "left_hand",
           "type": "weapon",
-          "damageType": "piercing",
-          "dice": "d100",
-          "scalingStat": "DEX",
-          "twoHanded": false,
-          "flatBonus": 49
+          "damageType": "frost",
+          "dice": "d6",
+          "scalingStat": "STR",
+          "twoHanded": null,
+          "flatBonus": 6
         }
       ],
       "armors": [],
       "catalysts": [
         {
-          "name": "Recently Catalyst",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "pyromancy flame",
-          "flatBonus": 9
-        }
-      ],
-      "items": [],
-      "spells": []
-    }
-  },
-  "505d61c1-5437-445a-aaf3-23d4c3aef821": {
-    "character": {
-      "name": "Rachel Burke",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 0,
-      "souls": 9847,
-      "resources": {
-        "HP": {
-          "current": 340,
-          "maximum": 479
-        },
-        "AP": {
-          "current": 337,
-          "maximum": 453
-        },
-        "SpellSlots": {
-          "current": 2,
-          "maximum": 3
-        },
-        "Hollowing": {
-          "current": 2,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 54,
-          "modifier": 11
-        },
-        "DEX": {
-          "value": 94,
-          "modifier": 7
-        },
-        "FTH": {
-          "value": 25,
-          "modifier": 17
-        },
-        "INT": {
-          "value": 58,
-          "modifier": 2
-        },
-        "VIT": {
-          "value": 9,
-          "modifier": 19
-        },
-        "END": {
-          "value": 13,
-          "modifier": 15
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [],
-      "armors": [
-        {
-          "name": "Defense Armor",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "frost",
-          "flatBonus": 18
-        }
-      ],
-      "catalysts": [
-        {
-          "name": "Against Catalyst",
+          "name": "Ahead Catalyst",
           "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
           "slot": "right_hand",
           "type": "catalyst",
           "catalystType": "talisman",
-          "flatBonus": 10
+          "flatBonus": 17
         }
       ],
       "items": [],
-      "spells": []
-    }
-  },
-  "09c3aef0-0654-47b6-8bde-431ea74b21ec": {
-    "character": {
-      "name": "Michelle Mcgee",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 38,
-      "souls": 5385,
-      "resources": {
-        "HP": {
-          "current": 544,
-          "maximum": 614
-        },
-        "AP": {
-          "current": 264,
-          "maximum": 339
-        },
-        "SpellSlots": {
-          "current": 2,
-          "maximum": 4
-        },
-        "Hollowing": {
-          "current": 4,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 64,
-          "modifier": -15
-        },
-        "DEX": {
-          "value": 13,
-          "modifier": -20
-        },
-        "FTH": {
-          "value": 26,
-          "modifier": 0
-        },
-        "INT": {
-          "value": 52,
-          "modifier": 14
-        },
-        "VIT": {
-          "value": 9,
-          "modifier": 12
-        },
-        "END": {
-          "value": 19,
-          "modifier": 12
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "name": "Goal Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "slashing",
-          "dice": "d8",
-          "scalingStat": "DEX",
-          "twoHanded": false,
-          "flatBonus": 27
-        },
-        {
-          "name": "Information Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "slashing",
-          "dice": "d20",
-          "scalingStat": "FTH",
-          "twoHanded": null,
-          "flatBonus": 42
-        }
-      ],
-      "armors": [
-        {
-          "name": "Analysis Armor",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "magic",
-          "flatBonus": 22
-        }
-      ],
-      "catalysts": [],
-      "items": [
-        {
-          "name": "North Flask",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "key",
-          "effect": "Game many concern by relationship make certain.",
-          "uses": 3,
-          "max_uses": 11
-        }
-      ],
       "spells": [
         {
-          "name": "Theory Spell",
+          "name": "The Spell",
           "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_4",
+          "slot": "spell_1",
           "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "debuff",
-          "dice": "d20",
+          "spellType": "magic",
+          "effectType": "utility",
+          "dice": "d10",
           "scalingStat": null,
-          "duration": 6,
-          "requiresCatalyst": "staff",
+          "duration": null,
+          "requiresCatalyst": "chime",
           "uses": 5,
           "max_uses": null
         },
         {
-          "name": "Test Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_3",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "damage",
-          "dice": "d4",
-          "scalingStat": "DEX",
-          "duration": 4,
-          "requiresCatalyst": "staff",
-          "uses": 4,
-          "max_uses": 9
-        },
-        {
-          "name": "Performance Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "buff",
-          "dice": "d10",
-          "scalingStat": "DEX",
-          "duration": 9,
-          "requiresCatalyst": "talisman",
-          "uses": 2,
-          "max_uses": 19
-        },
-        {
-          "name": "Structure Spell",
+          "name": "Agreement Spell",
           "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
           "slot": "spell_2",
           "type": "spell",
-          "spellType": "magic",
-          "effectType": "utility",
-          "dice": "d10",
-          "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "staff",
-          "uses": 1,
-          "max_uses": 14
-        }
-      ]
-    }
-  },
-  "f7741601-0ea7-445c-a4de-f4d6109aa6e2": {
-    "character": {
-      "name": "Amanda Ruiz",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 15,
-      "souls": 7516,
-      "resources": {
-        "HP": {
-          "current": 494,
-          "maximum": 544
-        },
-        "AP": {
-          "current": 121,
-          "maximum": 249
-        },
-        "SpellSlots": {
-          "current": 3,
-          "maximum": 7
-        },
-        "Hollowing": {
-          "current": 0,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 80,
-          "modifier": -13
-        },
-        "DEX": {
-          "value": 43,
-          "modifier": 4
-        },
-        "FTH": {
-          "value": 42,
-          "modifier": 2
-        },
-        "INT": {
-          "value": 2,
-          "modifier": -19
-        },
-        "VIT": {
-          "value": 46,
-          "modifier": -3
-        },
-        "END": {
-          "value": 22,
-          "modifier": 11
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "name": "Change Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "lightning",
-          "dice": "d100",
-          "scalingStat": "DEX",
-          "twoHanded": null,
-          "flatBonus": 6
-        },
-        {
-          "name": "Instead Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "fire",
-          "dice": "d12",
-          "scalingStat": "FTH",
-          "twoHanded": true,
-          "flatBonus": 30
-        }
-      ],
-      "armors": [],
-      "catalysts": [],
-      "items": [],
-      "spells": [
-        {
-          "name": "Major Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_2",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "damage",
-          "dice": "d100",
-          "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 4,
-          "max_uses": 8
-        }
-      ]
-    }
-  },
-  "09ca6b3b-e1e6-4a28-8c1e-5d6655b660aa": {
-    "character": {
-      "name": "Rachel Turner",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 64,
-      "souls": 9374,
-      "resources": {
-        "HP": {
-          "current": 958,
-          "maximum": 1096
-        },
-        "AP": {
-          "current": 332,
-          "maximum": 466
-        },
-        "SpellSlots": {
-          "current": 2,
-          "maximum": 4
-        },
-        "Hollowing": {
-          "current": 5,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 11,
-          "modifier": 17
-        },
-        "DEX": {
-          "value": 82,
-          "modifier": 3
-        },
-        "FTH": {
-          "value": 86,
-          "modifier": 4
-        },
-        "INT": {
-          "value": 52,
-          "modifier": 12
-        },
-        "VIT": {
-          "value": 14,
-          "modifier": -8
-        },
-        "END": {
-          "value": 4,
-          "modifier": 8
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [],
-      "armors": [],
-      "catalysts": [
-        {
-          "name": "Success Catalyst",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
-          "slot": "right_hand",
-          "type": "catalyst",
-          "catalystType": "talisman",
-          "flatBonus": 9
-        },
-        {
-          "name": "Control Catalyst",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "talisman",
-          "flatBonus": 11
-        }
-      ],
-      "items": [],
-      "spells": [
-        {
-          "name": "Word Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_4",
-          "type": "spell",
-          "spellType": "sorcery",
-          "effectType": "damage",
-          "dice": "d12",
-          "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "chime",
-          "uses": 1,
-          "max_uses": 13
-        },
-        {
-          "name": "Impact Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "cryomancy",
-          "effectType": "debuff",
-          "dice": "d20",
-          "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 3,
-          "max_uses": null
-        }
-      ]
-    }
-  },
-  "d5a4ad38-142e-4058-a50f-bdf2cc1a200b": {
-    "character": {
-      "name": "Christopher Jones",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 17,
-      "souls": 3636,
-      "resources": {
-        "HP": {
-          "current": 645,
-          "maximum": 792
-        },
-        "AP": {
-          "current": 306,
-          "maximum": 474
-        },
-        "SpellSlots": {
-          "current": 1,
-          "maximum": 5
-        },
-        "Hollowing": {
-          "current": 0,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 53,
-          "modifier": 18
-        },
-        "DEX": {
-          "value": 2,
-          "modifier": 10
-        },
-        "FTH": {
-          "value": 34,
-          "modifier": 2
-        },
-        "INT": {
-          "value": 19,
-          "modifier": -8
-        },
-        "VIT": {
-          "value": 22,
-          "modifier": -20
-        },
-        "END": {
-          "value": 17,
-          "modifier": 10
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "name": "Wish Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "piercing",
-          "dice": "d20",
-          "scalingStat": null,
-          "twoHanded": false,
-          "flatBonus": 37
-        }
-      ],
-      "armors": [
-        {
-          "name": "Seek Armor",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "magic",
-          "flatBonus": 4
-        }
-      ],
-      "catalysts": [
-        {
-          "name": "Hold Catalyst",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
-          "slot": "right_hand",
-          "type": "catalyst",
-          "catalystType": "pyromancy flame",
-          "flatBonus": 17
-        }
-      ],
-      "items": [
-        {
-          "name": "Up Flask",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "misc",
-          "effect": "Pull beyond in.",
-          "uses": 9,
-          "max_uses": 22
-        }
-      ],
-      "spells": [
-        {
-          "name": "Receive Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_4",
-          "type": "spell",
-          "spellType": "sorcery",
-          "effectType": "utility",
-          "dice": "d8",
-          "scalingStat": null,
-          "duration": 4,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 3,
-          "max_uses": 8
-        }
-      ]
-    }
-  },
-  "aa8824a9-f089-42f7-9714-ef49fb297e36": {
-    "character": {
-      "name": "Nicholas Spencer",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 11,
-      "souls": 5709,
-      "resources": {
-        "HP": {
-          "current": 947,
-          "maximum": 1062
-        },
-        "AP": {
-          "current": 315,
-          "maximum": 514
-        },
-        "SpellSlots": {
-          "current": 3,
-          "maximum": 3
-        },
-        "Hollowing": {
-          "current": 3,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 44,
-          "modifier": -12
-        },
-        "DEX": {
-          "value": 52,
-          "modifier": -12
-        },
-        "FTH": {
-          "value": 67,
-          "modifier": -14
-        },
-        "INT": {
-          "value": 57,
-          "modifier": -3
-        },
-        "VIT": {
-          "value": 51,
-          "modifier": -12
-        },
-        "END": {
-          "value": 71,
-          "modifier": -16
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [],
-      "armors": [
-        {
-          "name": "White Armor",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "light",
-          "flatBonus": 21
-        }
-      ],
-      "catalysts": [],
-      "items": [],
-      "spells": [
-        {
-          "name": "Add Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_4",
-          "type": "spell",
           "spellType": "miracle",
-          "effectType": "buff",
+          "effectType": "healing",
           "dice": "d20",
-          "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 2,
-          "max_uses": 5
-        },
-        {
-          "name": "Sense Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_3",
-          "type": "spell",
-          "spellType": "miracle",
-          "effectType": "debuff",
-          "dice": "d4",
-          "scalingStat": "FTH",
-          "duration": null,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 4,
-          "max_uses": null
-        },
-        {
-          "name": "Three Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_1",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "damage",
-          "dice": "d8",
           "scalingStat": "INT",
-          "duration": 2,
-          "requiresCatalyst": "chime",
-          "uses": 4,
-          "max_uses": 8
-        },
-        {
-          "name": "New Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_2",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "buff",
-          "dice": "d10",
-          "scalingStat": "STR",
-          "duration": 2,
+          "duration": 7,
           "requiresCatalyst": "talisman",
-          "uses": 2,
+          "uses": 5,
           "max_uses": null
         }
       ]
     }
   },
-  "13bd0fec-2dee-4a01-9004-8f9e3d94e673": {
+  "dc594bd0-d824-436a-ae38-3c74193aefb9": {
     "character": {
-      "name": "Joseph Hale",
+      "name": "Justin Benson",
       "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 36,
-      "souls": 4292,
+      "level": 62,
+      "souls": 156,
       "resources": {
         "HP": {
-          "current": 337,
-          "maximum": 460
-        },
-        "AP": {
-          "current": 99,
-          "maximum": 299
-        },
-        "SpellSlots": {
-          "current": 4,
-          "maximum": 7
-        },
-        "Hollowing": {
-          "current": 3,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 94,
-          "modifier": -6
-        },
-        "DEX": {
-          "value": 72,
-          "modifier": -20
-        },
-        "FTH": {
-          "value": 0,
-          "modifier": 11
-        },
-        "INT": {
-          "value": 54,
-          "modifier": -20
-        },
-        "VIT": {
-          "value": 82,
-          "modifier": -10
-        },
-        "END": {
-          "value": 36,
-          "modifier": -11
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "name": "Clearly Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "bludgeoning",
-          "dice": "d12",
-          "scalingStat": null,
-          "twoHanded": false,
-          "flatBonus": 7
-        }
-      ],
-      "armors": [],
-      "catalysts": [],
-      "items": [
-        {
-          "name": "Sure Flask",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "estus",
-          "effect": "Effort wife method southern.",
-          "uses": 4,
-          "max_uses": 48
-        }
-      ],
-      "spells": [
-        {
-          "name": "Student Spell",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_4",
-          "type": "spell",
-          "spellType": "magic",
-          "effectType": "utility",
-          "dice": "d12",
-          "scalingStat": "STR",
-          "duration": 3,
-          "requiresCatalyst": "staff",
-          "uses": 4,
-          "max_uses": null
-        }
-      ]
-    }
-  },
-  "8ee11d8b-4ca6-4287-8383-3ef5ebb91708": {
-    "character": {
-      "name": "John Wright",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 52,
-      "souls": 497,
-      "resources": {
-        "HP": {
-          "current": 358,
-          "maximum": 437
+          "current": 909,
+          "maximum": 1104
         },
         "AP": {
           "current": 196,
-          "maximum": 394
+          "maximum": 341
         },
         "SpellSlots": {
-          "current": 1,
-          "maximum": 3
-        },
-        "Hollowing": {
-          "current": 1,
-          "maximum": 10
-        }
-      },
-      "stats": {
-        "STR": {
-          "value": 76,
-          "modifier": 6
-        },
-        "DEX": {
-          "value": 28,
-          "modifier": -10
-        },
-        "FTH": {
-          "value": 47,
-          "modifier": -5
-        },
-        "INT": {
-          "value": 90,
-          "modifier": 4
-        },
-        "VIT": {
-          "value": 61,
-          "modifier": -6
-        },
-        "END": {
-          "value": 46,
-          "modifier": -10
-        }
-      }
-    },
-    "inventory": {
-      "weapons": [
-        {
-          "name": "Gun Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "fire",
-          "dice": "d6",
-          "scalingStat": null,
-          "twoHanded": false,
-          "flatBonus": 21
-        }
-      ],
-      "armors": [],
-      "catalysts": [
-        {
-          "name": "Throughout Catalyst",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
-          "slot": "left_hand",
-          "type": "catalyst",
-          "catalystType": "chime",
-          "flatBonus": 8
-        }
-      ],
-      "items": [
-        {
-          "name": "Improve Flask",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
-          "slot": "consumable",
-          "type": "consumable",
-          "consumableType": "material",
-          "effect": "Dog study far fire.",
-          "uses": 3,
-          "max_uses": 26
-        }
-      ],
-      "spells": []
-    }
-  },
-  "f5635642-b7c6-4d1b-8e4b-309016e20360": {
-    "character": {
-      "name": "Jesse Maxwell",
-      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-      "level": 95,
-      "souls": 2798,
-      "resources": {
-        "HP": {
-          "current": 736,
-          "maximum": 844
-        },
-        "AP": {
-          "current": 125,
-          "maximum": 193
-        },
-        "SpellSlots": {
-          "current": 3,
+          "current": 2,
           "maximum": 6
         },
         "Hollowing": {
@@ -971,93 +134,75 @@
       },
       "stats": {
         "STR": {
-          "value": 3,
-          "modifier": -3
+          "value": 8,
+          "modifier": 17
         },
         "DEX": {
-          "value": 77,
-          "modifier": 7
+          "value": 89,
+          "modifier": -18
         },
         "FTH": {
-          "value": 47,
-          "modifier": -20
+          "value": 19,
+          "modifier": 3
         },
         "INT": {
-          "value": 64,
-          "modifier": 8
+          "value": 6,
+          "modifier": -10
         },
         "VIT": {
-          "value": 7,
-          "modifier": 13
+          "value": 46,
+          "modifier": -1
         },
         "END": {
-          "value": 31,
-          "modifier": -5
+          "value": 24,
+          "modifier": -19
         }
       }
     },
     "inventory": {
-      "weapons": [
-        {
-          "name": "Risk Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "right_hand",
-          "type": "weapon",
-          "damageType": "piercing",
-          "dice": "d20",
-          "scalingStat": "INT",
-          "twoHanded": null,
-          "flatBonus": 14
-        },
-        {
-          "name": "Special Sword",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
-          "slot": "left_hand",
-          "type": "weapon",
-          "damageType": "dark",
-          "dice": "d8",
-          "scalingStat": "FTH",
-          "twoHanded": true,
-          "flatBonus": 44
-        }
-      ],
-      "armors": [
-        {
-          "name": "Must Armor",
-          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
-          "slot": "armor",
-          "type": "armor",
-          "armorType": "light",
-          "flatBonus": 29
-        }
-      ],
+      "weapons": [],
+      "armors": [],
       "catalysts": [],
       "items": [],
       "spells": [
         {
-          "name": "Plant Spell",
+          "name": "Ready Spell",
           "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
-          "slot": "spell_2",
+          "slot": "spell_3",
           "type": "spell",
-          "spellType": "sorcery",
-          "effectType": "healing",
+          "spellType": "magic",
+          "effectType": "damage",
           "dice": "d10",
-          "scalingStat": "DEX",
-          "duration": 2,
-          "requiresCatalyst": "pyromancy flame",
-          "uses": 4,
+          "scalingStat": "INT",
+          "duration": 1,
+          "requiresCatalyst": "staff",
+          "uses": 3,
           "max_uses": null
         },
         {
-          "name": "Entire Spell",
+          "name": "Sort Spell",
           "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
           "slot": "spell_1",
           "type": "spell",
           "spellType": "miracle",
-          "effectType": "damage",
+          "effectType": "utility",
+          "dice": "d100",
+          "scalingStat": "FTH",
+          "duration": 5,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 4,
+          "max_uses": 18
+        },
+        {
+          "name": "Hotel Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "buff",
           "dice": "d4",
           "scalingStat": "DEX",
-          "duration": null,
+          "duration": 6,
           "requiresCatalyst": "chime",
           "uses": 5,
           "max_uses": null
@@ -1065,133 +210,903 @@
       ]
     }
   },
-  "a939159a-8116-4333-8252-e7dd0fe2d7de": {
+  "d9db4238-d977-4a14-91b2-899a2fa9dcc5": {
     "character": {
-      "main": {
-        "name": "Test Character",
-        "level": 10,
-        "souls": 1000
+      "name": "Sandra Lewis",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 33,
+      "souls": 8248,
+      "resources": {
+        "HP": {
+          "current": 871,
+          "maximum": 1020
+        },
+        "AP": {
+          "current": 441,
+          "maximum": 590
+        },
+        "SpellSlots": {
+          "current": 2,
+          "maximum": 2
+        },
+        "Hollowing": {
+          "current": 0,
+          "maximum": 10
+        }
       },
       "stats": {
         "STR": {
-          "value": 10,
-          "modifier": 0
+          "value": 74,
+          "modifier": 2
         },
         "DEX": {
-          "value": 10,
-          "modifier": 0
+          "value": 5,
+          "modifier": 20
         },
         "FTH": {
-          "value": 10,
-          "modifier": 0
+          "value": 42,
+          "modifier": 5
         },
         "INT": {
-          "value": 10,
-          "modifier": 0
+          "value": 38,
+          "modifier": -6
         },
         "VIT": {
-          "value": 10,
-          "modifier": 0
+          "value": 89,
+          "modifier": 2
         },
         "END": {
-          "value": 10,
-          "modifier": 0
+          "value": 92,
+          "modifier": 4
         }
-      },
-      "resources": {}
+      }
     },
     "inventory": {
-      "weapons": [],
-      "armors": [],
+      "weapons": [
+        {
+          "name": "Least Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "left_hand",
+          "type": "weapon",
+          "damageType": "lightning",
+          "dice": "d100",
+          "scalingStat": null,
+          "twoHanded": null,
+          "flatBonus": 48
+        },
+        {
+          "name": "Positive Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "dark",
+          "dice": "d10",
+          "scalingStat": "DEX",
+          "twoHanded": true,
+          "flatBonus": 35
+        }
+      ],
+      "armors": [
+        {
+          "name": "Sport Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
+          "slot": "armor",
+          "type": "armor",
+          "armorType": "lightning",
+          "flatBonus": 10
+        }
+      ],
       "catalysts": [],
       "items": [],
       "spells": []
     }
   },
-  "6e3008ee-f325-447c-9834-c3e8fa803f7d": {
+  "dc66503b-e25e-4ebd-9c17-4b595bf41d56": {
     "character": {
-      "main": {
-        "name": "UUID Test Character",
-        "level": 5,
-        "souls": 500
+      "name": "Timothy Kennedy",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 70,
+      "souls": 5596,
+      "resources": {
+        "HP": {
+          "current": 276,
+          "maximum": 423
+        },
+        "AP": {
+          "current": 474,
+          "maximum": 606
+        },
+        "SpellSlots": {
+          "current": 2,
+          "maximum": 3
+        },
+        "Hollowing": {
+          "current": 5,
+          "maximum": 10
+        }
       },
       "stats": {
         "STR": {
-          "value": 15,
+          "value": 78,
+          "modifier": 17
+        },
+        "DEX": {
+          "value": 3,
+          "modifier": 17
+        },
+        "FTH": {
+          "value": 23,
+          "modifier": -4
+        },
+        "INT": {
+          "value": 58,
+          "modifier": 8
+        },
+        "VIT": {
+          "value": 84,
+          "modifier": 20
+        },
+        "END": {
+          "value": 26,
+          "modifier": -7
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [
+        {
+          "name": "Fill Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "frost",
+          "dice": "d8",
+          "scalingStat": null,
+          "twoHanded": false,
+          "flatBonus": 37
+        },
+        {
+          "name": "Real Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "left_hand",
+          "type": "weapon",
+          "damageType": "lightning",
+          "dice": "d100",
+          "scalingStat": "DEX",
+          "twoHanded": true,
+          "flatBonus": 47
+        }
+      ],
+      "armors": [],
+      "catalysts": [],
+      "items": [],
+      "spells": [
+        {
+          "name": "Top Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "healing",
+          "dice": "d100",
+          "scalingStat": "INT",
+          "duration": 4,
+          "requiresCatalyst": "talisman",
+          "uses": 5,
+          "max_uses": 5
+        },
+        {
+          "name": "Protect Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_1",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "healing",
+          "dice": "d10",
+          "scalingStat": null,
+          "duration": 9,
+          "requiresCatalyst": "talisman",
+          "uses": 1,
+          "max_uses": 13
+        }
+      ]
+    }
+  },
+  "5a402af8-8e39-46b4-a471-da9329006486": {
+    "character": {
+      "name": "Robert Vasquez",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 0,
+      "souls": 3984,
+      "resources": {
+        "HP": {
+          "current": 479,
+          "maximum": 609
+        },
+        "AP": {
+          "current": 444,
+          "maximum": 542
+        },
+        "SpellSlots": {
+          "current": 1,
+          "maximum": 2
+        },
+        "Hollowing": {
+          "current": 4,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 60,
+          "modifier": 7
+        },
+        "DEX": {
+          "value": 28,
+          "modifier": -15
+        },
+        "FTH": {
+          "value": 39,
+          "modifier": -10
+        },
+        "INT": {
+          "value": 26,
+          "modifier": -19
+        },
+        "VIT": {
+          "value": 31,
+          "modifier": 16
+        },
+        "END": {
+          "value": 66,
+          "modifier": -7
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [
+        {
+          "name": "Page Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "left_hand",
+          "type": "weapon",
+          "damageType": "lightning",
+          "dice": "d10",
+          "scalingStat": null,
+          "twoHanded": null,
+          "flatBonus": 15
+        },
+        {
+          "name": "New Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "magic",
+          "dice": "d100",
+          "scalingStat": null,
+          "twoHanded": true,
+          "flatBonus": 28
+        }
+      ],
+      "armors": [
+        {
+          "name": "Clearly Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
+          "slot": "armor",
+          "type": "armor",
+          "armorType": "magic",
+          "flatBonus": 10
+        }
+      ],
+      "catalysts": [],
+      "items": [
+        {
+          "name": "Leader Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
+          "slot": "consumable",
+          "type": "consumable",
+          "consumableType": "estus",
+          "effect": "Which yet contain seven.",
+          "uses": 9,
+          "max_uses": 50
+        }
+      ],
+      "spells": [
+        {
+          "name": "Cost Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_1",
+          "type": "spell",
+          "spellType": "cryomancy",
+          "effectType": "healing",
+          "dice": "d6",
+          "scalingStat": null,
+          "duration": null,
+          "requiresCatalyst": "chime",
+          "uses": 4,
+          "max_uses": null
+        },
+        {
+          "name": "Phone Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "healing",
+          "dice": "d8",
+          "scalingStat": "DEX",
+          "duration": null,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 3,
+          "max_uses": null
+        },
+        {
+          "name": "Beautiful Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "damage",
+          "dice": "d12",
+          "scalingStat": null,
+          "duration": null,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 3,
+          "max_uses": 13
+        },
+        {
+          "name": "War Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
+          "type": "spell",
+          "spellType": "cryomancy",
+          "effectType": "buff",
+          "dice": "d6",
+          "scalingStat": null,
+          "duration": 7,
+          "requiresCatalyst": "talisman",
+          "uses": 4,
+          "max_uses": 6
+        }
+      ]
+    }
+  },
+  "c2b78869-1c4a-4697-9828-76924d6635d4": {
+    "character": {
+      "name": "Alexandra Miller",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 54,
+      "souls": 5059,
+      "resources": {
+        "HP": {
+          "current": 429,
+          "maximum": 610
+        },
+        "AP": {
+          "current": 497,
+          "maximum": 653
+        },
+        "SpellSlots": {
+          "current": 4,
+          "maximum": 4
+        },
+        "Hollowing": {
+          "current": 2,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 35,
+          "modifier": 6
+        },
+        "DEX": {
+          "value": 38,
+          "modifier": -18
+        },
+        "FTH": {
+          "value": 75,
+          "modifier": 13
+        },
+        "INT": {
+          "value": 34,
+          "modifier": -18
+        },
+        "VIT": {
+          "value": 82,
+          "modifier": -8
+        },
+        "END": {
+          "value": 51,
+          "modifier": -2
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [
+        {
+          "name": "Tv Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "left_hand",
+          "type": "weapon",
+          "damageType": "bludgeoning",
+          "dice": "d20",
+          "scalingStat": "DEX",
+          "twoHanded": true,
+          "flatBonus": 16
+        }
+      ],
+      "armors": [],
+      "catalysts": [
+        {
+          "name": "Bit Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "right_hand",
+          "type": "catalyst",
+          "catalystType": "pyromancy flame",
+          "flatBonus": 18
+        }
+      ],
+      "items": [
+        {
+          "name": "Laugh Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
+          "slot": "consumable",
+          "type": "consumable",
+          "consumableType": "material",
+          "effect": "Nature offer others since key home.",
+          "uses": 9,
+          "max_uses": 31
+        }
+      ],
+      "spells": []
+    }
+  },
+  "af03da9c-e188-4cc9-98a3-730ab0849752": {
+    "character": {
+      "name": "Valerie Ray",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 75,
+      "souls": 6296,
+      "resources": {
+        "HP": {
+          "current": 749,
+          "maximum": 811
+        },
+        "AP": {
+          "current": 155,
+          "maximum": 245
+        },
+        "SpellSlots": {
+          "current": 1,
+          "maximum": 4
+        },
+        "Hollowing": {
+          "current": 2,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 23,
           "modifier": 5
         },
         "DEX": {
           "value": 15,
-          "modifier": 5
+          "modifier": 6
         },
         "FTH": {
-          "value": 15,
-          "modifier": 5
+          "value": 95,
+          "modifier": -14
         },
         "INT": {
-          "value": 15,
-          "modifier": 5
+          "value": 68,
+          "modifier": 0
         },
         "VIT": {
-          "value": 15,
-          "modifier": 5
+          "value": 26,
+          "modifier": 4
         },
         "END": {
-          "value": 15,
-          "modifier": 5
+          "value": 91,
+          "modifier": 10
         }
-      },
-      "resources": {}
+      }
     },
     "inventory": {
-      "weapons": [],
+      "weapons": [
+        {
+          "name": "Talk Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "magic",
+          "dice": "d20",
+          "scalingStat": "FTH",
+          "twoHanded": true,
+          "flatBonus": 43
+        }
+      ],
       "armors": [],
-      "catalysts": [],
+      "catalysts": [
+        {
+          "name": "Cover Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "left_hand",
+          "type": "catalyst",
+          "catalystType": "staff",
+          "flatBonus": 11
+        }
+      ],
       "items": [],
       "spells": []
     }
   },
-  "add72a0b-d202-43dc-83e2-483dd7eaaa6c": {
+  "91685039-392f-430c-a92d-d18f3c9a00a6": {
     "character": {
-      "main": {
-        "name": "Final Test Character",
-        "level": 1,
-        "souls": 100
+      "name": "William Ortiz",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 97,
+      "souls": 5018,
+      "resources": {
+        "HP": {
+          "current": 400,
+          "maximum": 556
+        },
+        "AP": {
+          "current": 57,
+          "maximum": 179
+        },
+        "SpellSlots": {
+          "current": 2,
+          "maximum": 4
+        },
+        "Hollowing": {
+          "current": 1,
+          "maximum": 10
+        }
       },
       "stats": {
         "STR": {
-          "value": 10,
-          "modifier": 0
+          "value": 55,
+          "modifier": -11
         },
         "DEX": {
-          "value": 10,
-          "modifier": 0
+          "value": 99,
+          "modifier": -1
         },
         "FTH": {
-          "value": 10,
-          "modifier": 0
+          "value": 82,
+          "modifier": -7
         },
         "INT": {
-          "value": 10,
-          "modifier": 0
+          "value": 94,
+          "modifier": -14
         },
         "VIT": {
-          "value": 10,
-          "modifier": 0
+          "value": 63,
+          "modifier": -3
         },
         "END": {
-          "value": 10,
-          "modifier": 0
+          "value": 32,
+          "modifier": -6
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [],
+      "armors": [
+        {
+          "name": "Front Armor",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
+          "slot": "armor",
+          "type": "armor",
+          "armorType": "fire",
+          "flatBonus": 12
+        }
+      ],
+      "catalysts": [
+        {
+          "name": "Radio Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "right_hand",
+          "type": "catalyst",
+          "catalystType": "talisman",
+          "flatBonus": 10
+        }
+      ],
+      "items": [
+        {
+          "name": "Guess Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
+          "slot": "consumable",
+          "type": "consumable",
+          "consumableType": "estus",
+          "effect": "Gun cut blood career page peace.",
+          "uses": 8,
+          "max_uses": 27
+        }
+      ],
+      "spells": [
+        {
+          "name": "Bit Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "healing",
+          "dice": "d4",
+          "scalingStat": "FTH",
+          "duration": 2,
+          "requiresCatalyst": "talisman",
+          "uses": 2,
+          "max_uses": null
+        },
+        {
+          "name": "Space Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "cryomancy",
+          "effectType": "utility",
+          "dice": "d8",
+          "scalingStat": "INT",
+          "duration": null,
+          "requiresCatalyst": "chime",
+          "uses": 1,
+          "max_uses": null
+        },
+        {
+          "name": "Writer Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_1",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "debuff",
+          "dice": "d6",
+          "scalingStat": "FTH",
+          "duration": null,
+          "requiresCatalyst": "pyromancy flame",
+          "uses": 1,
+          "max_uses": 5
+        }
+      ]
+    }
+  },
+  "c0f3cdab-101a-4995-8d73-2a54c7f0e1eb": {
+    "character": {
+      "name": "Joseph Lewis",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 18,
+      "souls": 1374,
+      "resources": {
+        "HP": {
+          "current": 681,
+          "maximum": 859
+        },
+        "AP": {
+          "current": 111,
+          "maximum": 214
+        },
+        "SpellSlots": {
+          "current": 3,
+          "maximum": 5
+        },
+        "Hollowing": {
+          "current": 3,
+          "maximum": 10
         }
       },
-      "resources": {}
+      "stats": {
+        "STR": {
+          "value": 85,
+          "modifier": -20
+        },
+        "DEX": {
+          "value": 78,
+          "modifier": 4
+        },
+        "FTH": {
+          "value": 47,
+          "modifier": -14
+        },
+        "INT": {
+          "value": 96,
+          "modifier": 6
+        },
+        "VIT": {
+          "value": 56,
+          "modifier": -10
+        },
+        "END": {
+          "value": 67,
+          "modifier": 9
+        }
+      }
+    },
+    "inventory": {
+      "weapons": [
+        {
+          "name": "Effect Sword",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/longsword.png",
+          "slot": "right_hand",
+          "type": "weapon",
+          "damageType": "lightning",
+          "dice": "d20",
+          "scalingStat": "FTH",
+          "twoHanded": true,
+          "flatBonus": 25
+        }
+      ],
+      "armors": [],
+      "catalysts": [],
+      "items": [
+        {
+          "name": "Doctor Flask",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/estus_flask-icon.png",
+          "slot": "consumable",
+          "type": "consumable",
+          "consumableType": "misc",
+          "effect": "Pay note deal president.",
+          "uses": 8,
+          "max_uses": 45
+        }
+      ],
+      "spells": [
+        {
+          "name": "Analysis Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_4",
+          "type": "spell",
+          "spellType": "cryomancy",
+          "effectType": "healing",
+          "dice": "d8",
+          "scalingStat": "STR",
+          "duration": null,
+          "requiresCatalyst": "talisman",
+          "uses": 2,
+          "max_uses": 7
+        },
+        {
+          "name": "Find Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "buff",
+          "dice": "d100",
+          "scalingStat": "DEX",
+          "duration": null,
+          "requiresCatalyst": "staff",
+          "uses": 5,
+          "max_uses": null
+        },
+        {
+          "name": "Notice Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_1",
+          "type": "spell",
+          "spellType": "miracle",
+          "effectType": "buff",
+          "dice": "d6",
+          "scalingStat": "INT",
+          "duration": 9,
+          "requiresCatalyst": "staff",
+          "uses": 4,
+          "max_uses": 13
+        },
+        {
+          "name": "Finish Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "utility",
+          "dice": "d10",
+          "scalingStat": "DEX",
+          "duration": null,
+          "requiresCatalyst": "chime",
+          "uses": 4,
+          "max_uses": null
+        }
+      ]
+    }
+  },
+  "3b10f211-22a2-44e8-af37-77ac69bbce84": {
+    "character": {
+      "name": "Michelle Ali",
+      "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+      "level": 74,
+      "souls": 923,
+      "resources": {
+        "HP": {
+          "current": 778,
+          "maximum": 851
+        },
+        "AP": {
+          "current": 303,
+          "maximum": 414
+        },
+        "SpellSlots": {
+          "current": 3,
+          "maximum": 7
+        },
+        "Hollowing": {
+          "current": 3,
+          "maximum": 10
+        }
+      },
+      "stats": {
+        "STR": {
+          "value": 5,
+          "modifier": 19
+        },
+        "DEX": {
+          "value": 4,
+          "modifier": -1
+        },
+        "FTH": {
+          "value": 21,
+          "modifier": 15
+        },
+        "INT": {
+          "value": 53,
+          "modifier": -6
+        },
+        "VIT": {
+          "value": 38,
+          "modifier": 11
+        },
+        "END": {
+          "value": 80,
+          "modifier": -9
+        }
+      }
     },
     "inventory": {
       "weapons": [],
       "armors": [],
-      "catalysts": [],
+      "catalysts": [
+        {
+          "name": "Exactly Catalyst",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
+          "slot": "right_hand",
+          "type": "catalyst",
+          "catalystType": "chime",
+          "flatBonus": 6
+        }
+      ],
       "items": [],
-      "spells": []
+      "spells": [
+        {
+          "name": "Public Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_2",
+          "type": "spell",
+          "spellType": "sorcery",
+          "effectType": "damage",
+          "dice": "d100",
+          "scalingStat": "FTH",
+          "duration": null,
+          "requiresCatalyst": "staff",
+          "uses": 3,
+          "max_uses": null
+        },
+        {
+          "name": "Position Spell",
+          "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heal_aid-icon.png",
+          "slot": "spell_3",
+          "type": "spell",
+          "spellType": "magic",
+          "effectType": "debuff",
+          "dice": "d100",
+          "scalingStat": "INT",
+          "duration": null,
+          "requiresCatalyst": "talisman",
+          "uses": 5,
+          "max_uses": 15
+        }
+      ]
     }
   }
 }

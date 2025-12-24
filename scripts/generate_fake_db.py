@@ -2,15 +2,19 @@ from faker import Faker
 import json
 import random
 import uuid
-from models import (
-    CharacterData, Character, MainCharacterInfo, StatInfo,
-    WeaponItem, ArmorItem, SpellItem, CatalystItem, ConsumableItem,
-    EquipmentSlots, ItemType, DamageType, DiceRoll, ScalingStat, ArmorType,
-    SpellType, EffectType, CatalystType, ConsumableType, StatName
-)
+import sys
+import os
+
+# Add src to Python path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+
+from models.character import Character, MainCharacterInfo, StatInfo
+from models.item import WeaponItem, ArmorItem, SpellItem, CatalystItem, ConsumableItem, EquipmentSlots, ItemType, DamageType, DiceRoll, ScalingStat, ArmorType, SpellType, EffectType, CatalystType, ConsumableType
+from models.base import StatName
 from datetime import datetime
 
 fake = Faker()
+
 
 def fake_weapon():
     return WeaponItem(
@@ -19,19 +23,15 @@ def fake_weapon():
         slot=random.choice([EquipmentSlots.RIGHT_HAND, EquipmentSlots.LEFT_HAND]),
         damageType=random.choice(list(DamageType)),
         dice=random.choice(list(DiceRoll)),
-        scalingStat=random.choice([None] + list(['STR', 'DEX', 'FTH', 'INT'])),
+        scalingStat=random.choice([None] + list(["STR", "DEX", "FTH", "INT"])),
         twoHanded=random.choice([True, False, None]),
-        flatBonus=random.randint(5, 50)
+        flatBonus=random.randint(5, 50),
     )
 
+
 def fake_armor():
-    return ArmorItem(
-        name=fake.words(1)[0].capitalize() + " Armor",
-        image="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
-        slot=EquipmentSlots.ARMOR,
-        armorType=random.choice(list(ArmorType)),
-        flatBonus=random.randint(1, 30)
-    )
+    return ArmorItem(name=fake.words(1)[0].capitalize() + " Armor", image="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png", slot=EquipmentSlots.ARMOR, armorType=random.choice(list(ArmorType)), flatBonus=random.randint(1, 30))
+
 
 def fake_spell():
     return SpellItem(
@@ -41,12 +41,13 @@ def fake_spell():
         spellType=random.choice(list(SpellType)),
         effectType=random.choice(list(EffectType)),
         dice=random.choice(list(DiceRoll)),
-        scalingStat=random.choice([None] + list(['STR', 'DEX', 'FTH', 'INT'])),
+        scalingStat=random.choice([None] + list(["STR", "DEX", "FTH", "INT"])),
         duration=random.choice([random.randint(1, 10), None]),
         requiresCatalyst=random.choice(list(CatalystType)),
         uses=random.randint(1, 5),
-        max_uses=random.choice([random.randint(5, 20), None])
+        max_uses=random.choice([random.randint(5, 20), None]),
     )
+
 
 def fake_catalyst():
     return CatalystItem(
@@ -54,8 +55,9 @@ def fake_catalyst():
         image="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
         slot=random.choice([EquipmentSlots.RIGHT_HAND, EquipmentSlots.LEFT_HAND]),
         catalystType=random.choice(list(CatalystType)),
-        flatBonus=random.randint(1, 20)
+        flatBonus=random.randint(1, 20),
     )
+
 
 def fake_consumable():
     return ConsumableItem(
@@ -65,8 +67,9 @@ def fake_consumable():
         consumableType=random.choice(list(ConsumableType)),
         effect=fake.sentence(),
         uses=random.randint(1, 10),
-        max_uses=random.randint(10, 50)
+        max_uses=random.randint(10, 50),
     )
+
 
 def fake_character_data():
     # Generate info
@@ -94,30 +97,21 @@ def fake_character_data():
     hollowing_current = random.randint(0, 5)
     hollowing_max = 10  # fixed max
 
-    resources = {
-        'HP': {'current': HP_current, 'maximum': HP_max},
-        'AP': {'current': AP_current, 'maximum': AP_max},
-        'SpellSlots': {'current': spell_slots_current, 'maximum': spell_slots_max},
-        'Hollowing': {'current': hollowing_current, 'maximum': hollowing_max}
-    }
+    resources = {"HP": {"current": HP_current, "maximum": HP_max}, "AP": {"current": AP_current, "maximum": AP_max}, "SpellSlots": {"current": spell_slots_current, "maximum": spell_slots_max}, "Hollowing": {"current": hollowing_current, "maximum": hollowing_max}}
 
     character_data = {
-        'name': name,
-        'image': "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
-        'level': level,
-        'souls': souls,
-        'resources': resources,
-        'stats': {k: v.model_dump() for k, v in stats.items()}
+        "name": name,
+        "image": "https://media.discordapp.net/attachments/1152637343891718175/1378092621448347800/Sans_titre_2_20250530004519.png?ex=69410a04&is=693fb884&hm=a2bf92825d11d4a6a693837b55cc4bcd383dd7e5b5c7d73b6c1862634ecde4cb&=&format=webp&quality=lossless",
+        "level": level,
+        "souls": souls,
+        "resources": resources,
+        "stats": {k: v.model_dump() for k, v in stats.items()},
     }
 
     # Generate inventory with unique slots
-    available_slots = set([
-        EquipmentSlots.RIGHT_HAND, EquipmentSlots.LEFT_HAND, EquipmentSlots.ARMOR,
-        EquipmentSlots.CONSUMABLE, EquipmentSlots.SPELL_1, EquipmentSlots.SPELL_2,
-        EquipmentSlots.SPELL_3, EquipmentSlots.SPELL_4
-    ])
+    available_slots = set([EquipmentSlots.RIGHT_HAND, EquipmentSlots.LEFT_HAND, EquipmentSlots.ARMOR, EquipmentSlots.CONSUMABLE, EquipmentSlots.SPELL_1, EquipmentSlots.SPELL_2, EquipmentSlots.SPELL_3, EquipmentSlots.SPELL_4])
 
-    inventory = {'weapons': [], 'armors': [], 'catalysts': [], 'items': [], 'spells': []}
+    inventory = {"weapons": [], "armors": [], "catalysts": [], "items": [], "spells": []}
 
     # Generate weapons (0-2, using hand slots)
     num_weapons = random.randint(0, 2)
@@ -132,11 +126,11 @@ def fake_character_data():
                 slot=slot,
                 damageType=random.choice(list(DamageType)),
                 dice=random.choice(list(DiceRoll)),
-                scalingStat=random.choice([None] + list(['STR', 'DEX', 'FTH', 'INT'])),
+                scalingStat=random.choice([None] + list(["STR", "DEX", "FTH", "INT"])),
                 twoHanded=random.choice([True, False, None]),
-                flatBonus=random.randint(5, 50)
+                flatBonus=random.randint(5, 50),
             ).model_dump()
-            inventory['weapons'].append(weapon)
+            inventory["weapons"].append(weapon)
 
     # Generate catalysts (0-2, using hand slots)
     num_catalysts = random.randint(0, 2)
@@ -145,26 +139,14 @@ def fake_character_data():
         chosen_catalysts = random.sample(list(hand_slots), min(num_catalysts, len(hand_slots)))
         for slot in chosen_catalysts:
             available_slots.remove(slot)
-            catalyst = CatalystItem(
-                name=fake.words(1)[0].capitalize() + " Catalyst",
-                image="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png",
-                slot=slot,
-                catalystType=random.choice(list(CatalystType)),
-                flatBonus=random.randint(1, 20)
-            ).model_dump()
-            inventory['catalysts'].append(catalyst)
+            catalyst = CatalystItem(name=fake.words(1)[0].capitalize() + " Catalyst", image="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/yorshkas_chime-icon.png", slot=slot, catalystType=random.choice(list(CatalystType)), flatBonus=random.randint(1, 20)).model_dump()
+            inventory["catalysts"].append(catalyst)
 
     # Generate armor (at most 1)
     if random.choice([True, False]) and EquipmentSlots.ARMOR in available_slots:
         available_slots.remove(EquipmentSlots.ARMOR)
-        armor = ArmorItem(
-            name=fake.words(1)[0].capitalize() + " Armor",
-            image="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png",
-            slot=EquipmentSlots.ARMOR,
-            armorType=random.choice(list(ArmorType)),
-            flatBonus=random.randint(1, 30)
-        ).model_dump()
-        inventory['armors'].append(armor)
+        armor = ArmorItem(name=fake.words(1)[0].capitalize() + " Armor", image="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/alva_helm.png", slot=EquipmentSlots.ARMOR, armorType=random.choice(list(ArmorType)), flatBonus=random.randint(1, 30)).model_dump()
+        inventory["armors"].append(armor)
 
     # Generate consumable (at most 1)
     if random.choice([True, False]) and EquipmentSlots.CONSUMABLE in available_slots:
@@ -176,9 +158,9 @@ def fake_character_data():
             consumableType=random.choice(list(ConsumableType)),
             effect=fake.sentence(),
             uses=random.randint(1, 10),
-            max_uses=random.randint(10, 50)
+            max_uses=random.randint(10, 50),
         ).model_dump()
-        inventory['items'].append(consumable)
+        inventory["items"].append(consumable)
 
     # Generate spells (0-4 unique spell slots)
     spell_slots = available_slots & {EquipmentSlots.SPELL_1, EquipmentSlots.SPELL_2, EquipmentSlots.SPELL_3, EquipmentSlots.SPELL_4}
@@ -193,18 +175,16 @@ def fake_character_data():
             spellType=random.choice(list(SpellType)),
             effectType=random.choice(list(EffectType)),
             dice=random.choice(list(DiceRoll)),
-            scalingStat=random.choice([None] + list(['STR', 'DEX', 'FTH', 'INT'])),
+            scalingStat=random.choice([None] + list(["STR", "DEX", "FTH", "INT"])),
             duration=random.choice([random.randint(1, 10), None]),
             requiresCatalyst=random.choice(list(CatalystType)),
             uses=random.randint(1, 5),
-            max_uses=random.choice([random.randint(5, 20), None])
+            max_uses=random.choice([random.randint(5, 20), None]),
         ).model_dump()
-        inventory['spells'].append(spell)
+        inventory["spells"].append(spell)
 
-    return {
-        'character': character_data,
-        'inventory': inventory
-    }
+    return {"character": character_data, "inventory": inventory}
+
 
 # Generate multiple characters with IDs
 database = {}
@@ -213,7 +193,7 @@ for i in range(1, 11):
     database[str(uuid.uuid4())] = char_data
 
 # Save to JSON
-with open('characters.json', 'w') as f:
+with open("characters.json", "w") as f:
     json.dump(database, f, indent=2, ensure_ascii=False)  # Match the database.py format
 
 print("Fake database generated in characters.json")
